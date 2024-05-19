@@ -1,0 +1,172 @@
+﻿<UserControl x:Class="FiltersApplication.View.Fuels" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:vm="clr-namespace:FiltersApplication.ViewModel" xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             mc:Ignorable="d"
+             d:DesignHeight="600"
+             d:DesignWidth="622"
+             Style="{StaticResource Page_Style}">
+    <UserControl.Resources>
+
+        <telerik:InvertedBooleanConverter x:Key="InvertedBooleanConverter" />
+
+        <DataTemplate x:Key="MultipleSelectionBoxTemplate">
+            <TextBlock Text="{Binding ElementName=radComboBox, Path=SelectedItems.Count, StringFormat='Выбрано типов топлива: 0'}" Foreground="Black" FontStyle="Italic" />
+        </DataTemplate>
+
+        <DataTemplate x:Key="CheckBoxItemTemplate">
+            <CheckBox x:Name="cb"
+               Content="{Binding BrandFuel}" Foreground="{Binding RelativeSource={RelativeSource AncestorType=telerik:RadComboBoxItem}, Path=Foreground}"
+               IsChecked="{Binding RelativeSource={RelativeSource AncestorType=telerik:RadComboBoxItem}, Path=IsSelected}"
+               telerik:TouchManager.ShouldSuspendMousePromotion="True"/>
+        </DataTemplate>
+
+        <DataTemplate x:Key="NormalItemTemplate">
+            <TextBlock Text="{Binding BrandFuel}" />
+        </DataTemplate>
+    </UserControl.Resources>
+    <UserControl.DataContext>
+        <vm:FuelsVM/>
+    </UserControl.DataContext>
+    <Grid Background="Transparent">
+        <Border Background="#212529" BorderBrush="#3A4149" BorderThickness="5" CornerRadius="8,8,0,8">
+          <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <Grid Background="Transparent">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="0.6*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Row="0" Grid.Column="0"  Grid.RowSpan="4" Grid.ColumnSpan="2" Margin="5,50,5,5" Source="/Images/fuels_page.png" Stretch="UniformToFill"/>
+                    <StackPanel Orientation="Horizontal"
+					HorizontalAlignment="Center"
+					Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+					Margin="0,50,0,5" Width="170">
+                        <telerik:RadButton Content="Cохранить изменения"
+                               CornerRadius="10" 
+							   Command="{Binding SaveCommand}"
+							   Width="170"
+							   FontFamily="Century Gothic" >
+                        </telerik:RadButton>
+                    </StackPanel>
+                    <telerik:RadGridView Name="fuelsGrid" IsBusy="True" GroupRenderMode="Flat" Background="#373E46" PreviewKeyDown="fuelsGrid_PreviewKeyDown"
+							 Grid.Row="1"
+							 Margin="8,15,8,8"
+                             Height="Auto"
+                             VerticalAlignment="Top"
+							 AutoGenerateColumns="False"
+							 ItemsSource="{Binding Fuels, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay, AsyncState=True, IsAsync=True}"
+							 RowIndicatorVisibility="Collapsed"
+							 CanUserFreezeColumns="False" DataLoadMode="Asynchronous"
+							 CanUserResizeColumns="False" NewRowPosition="Bottom" ShowColumnHeaders="True" FontFamily="Century Gothic" ShowSearchPanel="True" ShowColumnSortIndexes="True" ShowGroupPanel="False" Grid.ColumnSpan="2">
+
+                        <telerik:RadGridView.Columns>
+
+                            <telerik:GridViewDataColumn Header="Топливо"
+											DataMemberBinding="{Binding BrandFuel, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay, IsAsync=True}" />
+                            <telerik:GridViewDataColumn Header="Марка топлива"
+										DataMemberBinding="{Binding Type,  UpdateSourceTrigger=PropertyChanged, Mode=TwoWay, IsAsync=True}" />
+                            <telerik:GridViewDataColumn Header="Низшая теплота сгорания Q, МДж/кг"
+										DataMemberBinding="{Binding LowerHeatCombustion, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay, IsAsync=True}" />
+                            <telerik:GridViewDataColumn Header="S,%"
+										DataMemberBinding="{Binding SulfurContent,  UpdateSourceTrigger=PropertyChanged, Mode=TwoWay, IsAsync=True}" />
+                            <telerik:GridViewDataColumn Header="А,%"
+										DataMemberBinding="{Binding AshContent, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay, IsAsync=True}" />
+                            <telerik:GridViewDataColumn Header="W,%"
+										DataMemberBinding="{Binding Humidity, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay, IsAsync=True}" />
+                            <telerik:GridViewDataColumn Header="N,%"
+										DataMemberBinding="{Binding NContent, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay, IsAsync=True}" />
+                            <telerik:GridViewDataColumn Header="Теоретический объем воздуха Vв, м³/кг"
+										DataMemberBinding="{Binding TheoreticalAirVolume, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay, IsAsync=True}" />
+                            <telerik:GridViewDataColumn Header="Теоретический объем газа Vг, м³/кг"
+										DataMemberBinding="{Binding TheoreticalVolumeGas, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay, IsAsync=True}" />
+                            <telerik:GridViewDataColumn Header="Теоретический объем водяных паров Vвпо, м³/кг"
+										DataMemberBinding="{Binding TheoreticalVolumeWaterVapor, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay, IsAsync=True}" />
+                            <telerik:GridViewDataColumn Header="Медианный диаметр золы d50, м"
+											DataMemberBinding="{Binding MedianDiameterAsh, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay, IsAsync=True}" />
+                            <telerik:GridViewDataColumn Header="Напряженность электрического поля E, кВ/м"
+											DataMemberBinding="{Binding ElectricFieldStrength, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay, IsAsync=True}" />
+                            <telerik:GridViewDataColumn Header="Коэффициент обратной короны Кок"
+											DataMemberBinding="{Binding CoefficientReverseCrown, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay, IsAsync=True}" />
+                            <telerik:GridViewDataColumn Header="Удельное электрическое сопротивление золы, lg(p)"
+										DataMemberBinding="{Binding ElectricalResistanceAsh, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay, IsAsync=True}" />
+                        </telerik:RadGridView.Columns>
+
+                    </telerik:RadGridView>
+                    <StackPanel Grid.Row="2" Grid.Column="1" Margin="5,5,10,30" Grid.RowSpan="2">
+                        <TextBlock Text="Конфигуратор" FontFamily="Century Gothic" Margin="60,0,0,0" Foreground="Orange" FontWeight="Bold" FontSize="14" />
+
+                        <TextBlock Text="Формат разделителя" Margin="5,10,0,0" FontFamily="Century Gothic" Foreground="White"/>
+                        <TextBox x:Name="MultipleSelectionSeparatorStringFormat" Margin="0 2" Background="Transparent" Foreground="Orange"
+                     Text="{Binding ElementName=radComboBox, Path=MultipleSelectionSeparatorStringFormat, ValidatesOnExceptions=True, UpdateSourceTrigger=PropertyChanged}">
+                        </TextBox>
+
+                        <StackPanel Margin="0 10 0 0" IsEnabled="{Binding ElementName=radComboBox, Path=IsEnabled}">
+                            <telerik:RadButton Content="Выбрать все" CornerRadius="8,8,8,8"  
+                               Command="{x:Static telerik:RadComboBoxCommands.SelectAll}"
+                               CommandTarget="{Binding ElementName=radComboBox}">
+                                <Button.FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                </Button.FontFamily>
+                            </telerik:RadButton>
+                            <telerik:RadButton Content="Сбросить все" Margin="0 8" CornerRadius="8,8,8,8"
+                               Command="{x:Static telerik:RadComboBoxCommands.UnselectAll}" 
+                               CommandTarget="{Binding ElementName=radComboBox}" >
+                                <Button.FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                </Button.FontFamily>
+                            </telerik:RadButton>
+                            <TextBlock Text="Опции" FontFamily="Century Gothic" Margin="80,10,0,0" Foreground="Orange" FontWeight="Bold" FontSize="14" />
+                            <CheckBox Background="Orange" Margin="0 10 0 0" FontFamily="Century Gothic" IsThreeState="False" Content="Вывод количества элементов" IsChecked="False" Click="MultipleSelectionBoxTemplateCheckBoxClick" 
+                      IsEnabled="{Binding ElementName=IsEditable, Path=IsChecked, Converter={StaticResource InvertedBooleanConverter}}" Foreground="White"/>
+                            <CheckBox Background="Orange" Margin="0 4" FontFamily="Century Gothic" IsThreeState="False" Content="Элементы с флагом выбора" IsChecked="False" Click="RefreshItemTemplateSelectedCheckBoxClick" Foreground="White"/>
+                            <CheckBox Background="Orange" Foreground="White" FontFamily="Century Gothic" x:Name="IsEditable" Margin="0 0 0 0" IsThreeState="False" Content="Текстовый поиск" IsChecked="False"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <Grid Margin="20,10,20,10" x:Name="root" Grid.Row="2" Grid.Column="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0">
+                                <telerik:Label Margin="0 10 0 0" Content="Выбраны виды топлива:" Padding="0" FontFamily="Century Gothic" Foreground="White"/>
+                                <ItemsControl ItemsSource="{Binding ElementName=radComboBox, Path=SelectedItems}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding BrandFuel}" Foreground="Orange" FontSize="12" FontFamily="Century Gothic"/>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </StackPanel>
+                        </Grid>
+
+                        <telerik:RadComboBox x:Name="radComboBox" Margin="0 10 0 10" Grid.Row="1" EmptyText="Выберите топливо для расчета..." FontFamily="Century Gothic" 
+                             AllowMultipleSelection="True" ItemsSource="{Binding Fuels}" SelectedValuePath="BrandFuel"
+                             MultipleSelectionSeparator="{Binding ElementName=MultipleSelectionSeparator, Path=Text, Mode=TwoWay}"
+                             TextSearch.TextPath="BrandFuel" ItemTemplate="{StaticResource CheckBoxItemTemplate}" SelectedItem="{Binding SelectedFuels}"
+                             IsEditable="{Binding IsChecked, ElementName=IsEditable}"/>
+                    </Grid>
+                    <telerik:RadDataPager x:Name="radDataPager" FontFamily="Century Gothic"
+							  Grid.Row="3" FontSize="12" 
+							  Source="{Binding ElementName=fuelsGrid, Path=Items}"
+							  DisplayMode="All"
+                              PageSize="10"
+                              IsEnabled="True"
+							  IsTotalItemCountFixed="True" Grid.Column="0"  Grid.ColumnSpan="2" />
+                </Grid>
+            </ScrollViewer>
+        </Border>
+    </Grid>
+</UserControl>

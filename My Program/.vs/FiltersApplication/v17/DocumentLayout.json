@@ -1,0 +1,257 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\All\\Fil App\\My Program\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\Fil App\\My Program\\viewmodel\\calculatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:viewmodel\\calculatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\Fil App\\My Program\\view\\calculate.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:view\\calculate.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\Fil App\\My Program\\view\\fuels.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:view\\fuels.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|c:\\all\\fil app\\my program\\view\\fuels.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:view\\fuels.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\Fil App\\My Program\\viewmodel\\stationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:viewmodel\\stationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\Fil App\\My Program\\view\\stations.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:view\\stations.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\Fil App\\My Program\\model\\pagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:model\\pagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\Fil App\\My Program\\view\\filters.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:view\\filters.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\Fil App\\My Program\\viewmodel\\fuelsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:viewmodel\\fuelsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\Fil App\\My Program\\view\\stations.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:view\\stations.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\Fil App\\My Program\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\Fil App\\My Program\\viewmodel\\filtersvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:viewmodel\\filtersvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\Fil App\\My Program\\mainproject.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:mainproject.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\Fil App\\My Program\\view\\calculate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:view\\calculate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalculateVM.cs",
+              "DocumentMoniker": "C:\\All\\Fil App\\My Program\\ViewModel\\CalculateVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\CalculateVM.cs",
+              "ToolTip": "C:\\All\\Fil App\\My Program\\ViewModel\\CalculateVM.cs",
+              "RelativeToolTip": "ViewModel\\CalculateVM.cs",
+              "ViewState": "AQIAAPkAAAAAAAAAAAAiwBYBAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T17:25:30.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Stations.xaml.cs",
+              "DocumentMoniker": "C:\\All\\Fil App\\My Program\\View\\Stations.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Stations.xaml.cs",
+              "ToolTip": "C:\\All\\Fil App\\My Program\\View\\Stations.xaml.cs",
+              "RelativeToolTip": "View\\Stations.xaml.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAuwFUAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T09:21:07.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StationVM.cs",
+              "DocumentMoniker": "C:\\All\\Fil App\\My Program\\ViewModel\\StationVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\StationVM.cs",
+              "ToolTip": "C:\\All\\Fil App\\My Program\\ViewModel\\StationVM.cs",
+              "RelativeToolTip": "ViewModel\\StationVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:32:52.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Filters.xaml.cs",
+              "DocumentMoniker": "C:\\All\\Fil App\\My Program\\View\\Filters.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Filters.xaml.cs",
+              "ToolTip": "C:\\All\\Fil App\\My Program\\View\\Filters.xaml.cs",
+              "RelativeToolTip": "View\\Filters.xaml.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAAAE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T17:54:19.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calculate.xaml.cs",
+              "DocumentMoniker": "C:\\All\\Fil App\\My Program\\View\\Calculate.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Calculate.xaml.cs",
+              "ToolTip": "C:\\All\\Fil App\\My Program\\View\\Calculate.xaml.cs",
+              "RelativeToolTip": "View\\Calculate.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:10:53.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PageModel.cs",
+              "DocumentMoniker": "C:\\All\\Fil App\\My Program\\Model\\PageModel.cs",
+              "RelativeDocumentMoniker": "Model\\PageModel.cs",
+              "ToolTip": "C:\\All\\Fil App\\My Program\\Model\\PageModel.cs",
+              "RelativeToolTip": "Model\\PageModel.cs",
+              "ViewState": "AQIAANMBAAAAAAAAAAAqwPEBAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T18:35:23.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Fuels.xaml.cs",
+              "DocumentMoniker": "C:\\All\\Fil App\\My Program\\View\\Fuels.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Fuels.xaml.cs",
+              "ToolTip": "C:\\All\\Fil App\\My Program\\View\\Fuels.xaml.cs",
+              "RelativeToolTip": "View\\Fuels.xaml.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAkwEwAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T13:58:33.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Fuels.xaml",
+              "DocumentMoniker": "C:\\All\\Fil App\\My Program\\View\\Fuels.xaml",
+              "RelativeDocumentMoniker": "View\\Fuels.xaml",
+              "ToolTip": "C:\\All\\Fil App\\My Program\\View\\Fuels.xaml",
+              "RelativeToolTip": "View\\Fuels.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-19T13:28:36.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Stations.xaml",
+              "DocumentMoniker": "C:\\All\\Fil App\\My Program\\View\\Stations.xaml",
+              "RelativeDocumentMoniker": "View\\Stations.xaml",
+              "ToolTip": "C:\\All\\Fil App\\My Program\\View\\Stations.xaml",
+              "RelativeToolTip": "View\\Stations.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-19T10:06:46.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\All\\Fil App\\My Program\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\All\\Fil App\\My Program\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwGIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T17:29:45.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FiltersVM.cs",
+              "DocumentMoniker": "C:\\All\\Fil App\\My Program\\ViewModel\\FiltersVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\FiltersVM.cs",
+              "ToolTip": "C:\\All\\Fil App\\My Program\\ViewModel\\FiltersVM.cs",
+              "RelativeToolTip": "ViewModel\\FiltersVM.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADEAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:11:17.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainProject.xaml",
+              "DocumentMoniker": "C:\\All\\Fil App\\My Program\\MainProject.xaml",
+              "RelativeDocumentMoniker": "MainProject.xaml",
+              "ToolTip": "C:\\All\\Fil App\\My Program\\MainProject.xaml",
+              "RelativeToolTip": "MainProject.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-19T12:23:59.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FuelsVM.cs",
+              "DocumentMoniker": "C:\\All\\Fil App\\My Program\\ViewModel\\FuelsVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\FuelsVM.cs",
+              "ToolTip": "C:\\All\\Fil App\\My Program\\ViewModel\\FuelsVM.cs",
+              "RelativeToolTip": "ViewModel\\FuelsVM.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwBwAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T19:22:42.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Calculate.xaml",
+              "DocumentMoniker": "C:\\All\\Fil App\\My Program\\View\\Calculate.xaml",
+              "RelativeDocumentMoniker": "View\\Calculate.xaml",
+              "ToolTip": "C:\\All\\Fil App\\My Program\\View\\Calculate.xaml",
+              "RelativeToolTip": "View\\Calculate.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-19T12:10:46.863Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

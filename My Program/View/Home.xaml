@@ -1,0 +1,99 @@
+﻿<UserControl x:Class="FiltersApplication.View.Home"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:style="clr-namespace:FiltersApplication.Utilities"
+             xmlns:local="clr-namespace:FiltersApplication.View"
+             xmlns:vm="clr-namespace:FiltersApplication.ViewModel"
+             mc:Ignorable="d"
+             d:DesignHeight="600"
+             d:DesignWidth="622"
+            Background="Transparent">
+
+    <UserControl.DataContext>
+        <vm:NavigationVM />
+    </UserControl.DataContext>
+    <Grid>
+        <Image Source="/Images/home_page.png"
+                           Stretch="Fill" Opacity="0.3" />
+
+        <Border Background="Transparent"
+         BorderBrush="#3A4149"
+         BorderThickness="5"
+         CornerRadius="8,8,0,8" />
+        <!--// Responsive Layouts //-->
+
+        <ContentControl Content="{Binding}">
+
+            <ContentControl.Style>
+
+                <Style TargetType="ContentControl">
+
+                    <!--// Default Layout //-->
+
+                    <Setter Property="ContentTemplate"
+                        Value="{StaticResource Home_Laptop_Layout}" />
+                    <Style.Triggers>
+
+                        <!--// Desktop Layout // {width > 1400px}-->
+
+                        <DataTrigger Binding="{Binding Path=ActualWidth, RelativeSource={RelativeSource AncestorType=Window}, Converter={x:Static style:IsGreaterThanConverter.Instance}, ConverterParameter=1400}"
+                                 Value="True">
+
+                            <Setter Property="ContentTemplate"
+                                Value="{StaticResource Home_Desktop_Layout}" />
+
+                        </DataTrigger>
+
+                        <!--// Tablet Landscape Layout // {width < 1200px}-->
+
+                        <DataTrigger Binding="{Binding Path=ActualWidth, RelativeSource={RelativeSource AncestorType=Window}, Converter={x:Static style:IsLessThanConverter.Instance}, ConverterParameter=1200}"
+                                 Value="True">
+
+                            <Setter Property="ContentTemplate"
+                                Value="{StaticResource Home_Tablet_Landscape_Layout}" />
+
+                        </DataTrigger>
+
+                        <!--// Tablet Portrait Layout // {width < 1024px}-->
+
+                        <DataTrigger Binding="{Binding Path=ActualWidth, RelativeSource={RelativeSource AncestorType=Window}, Converter={x:Static style:IsLessThanConverter.Instance}, ConverterParameter=1024}"
+                                 Value="True">
+
+                            <Setter Property="ContentTemplate"
+                                Value="{StaticResource Home_Tablet_Portrait_Layout}" />
+
+                        </DataTrigger>
+
+                        <!--// Mobile Landscape Layout // {width < 812px}-->
+
+                        <DataTrigger Binding="{Binding Path=ActualWidth, RelativeSource={RelativeSource AncestorType=Window}, Converter={x:Static style:IsLessThanConverter.Instance}, ConverterParameter=812}"
+                                 Value="True">
+
+                            <Setter Property="ContentTemplate"
+                                Value="{StaticResource Home_Mobile_Landscape_Layout}" />
+
+                        </DataTrigger>
+
+                        <!--// Mobile Portrait Layout // {width < 667px}-->
+
+                        <DataTrigger Binding ="{Binding Path= ActualWidth, RelativeSource={RelativeSource AncestorType=Window}, Converter={x:Static style:IsLessThanConverter.Instance},ConverterParameter=667}"
+                                 Value="True">
+
+                            <Setter Property="ContentTemplate"
+                                Value="{StaticResource Home_Mobile_Portrait_Layout}" />
+
+                        </DataTrigger>
+
+                    </Style.Triggers>
+
+                </Style>
+
+            </ContentControl.Style>
+
+        </ContentControl>
+
+    </Grid>
+
+</UserControl>

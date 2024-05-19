@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation">
+    <Style x:Key="ComboBox_Style" TargetType="telerik:RadComboBox" BasedOn="{StaticResource RadComboBoxStyle}">
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding Path=(Validation.HasError), ElementName=MultipleSelectionSeparatorStringFormat}"  Value="True">
+                <Setter Property="IsEnabled" Value="False" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+
+</ResourceDictionary>
