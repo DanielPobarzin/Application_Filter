@@ -1,0 +1,938 @@
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\FiltersApplication.csproj.AssemblyReference.cache
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\Styles\Button.baml
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\Styles\Image.baml
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\Styles\Page.baml
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\Styles\Text.baml
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\App.baml
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\View\Calculate.g.cs
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\View\Filters.g.cs
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\View\Fuels.g.cs
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\View\Home.g.cs
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\View\Charts.g.cs
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\View\Stations.g.cs
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\App.g.cs
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\FiltersApplication_MarkupCompile.cache
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\FiltersApplication_MarkupCompile.lref
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\MainWindow.baml
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\Styles\Styles.baml
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\View\Calculate.baml
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\View\Filters.baml
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\View\Fuels.baml
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\View\Home.baml
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\View\Charts.baml
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\View\Stations.baml
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\FiltersApplication.dll
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\refint\FiltersApplication.dll
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\FiltersApplication.pdb
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\FiltersApplication.exe
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\FiltersApplication.deps.json
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\FiltersApplication.runtimeconfig.json
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\FiltersApplication.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\FiltersApplication.pdb
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Microsoft.OData.Client.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Microsoft.OData.Core.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Microsoft.OData.Edm.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Microsoft.Spatial.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\SharpDX.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\SharpDX.D3DCompiler.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\SharpDX.Direct2D1.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\SharpDX.Direct3D10.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\SharpDX.Direct3D9.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\SharpDX.DXGI.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\SharpDX.Mathematics.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\MediaFoundation.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Documents.SpreadsheetStreaming.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Pivot.Core.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Pivot.DataProviders.Adomd.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Pivot.DataProviders.Queryable.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Pivot.DataProviders.Xmla.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Cloud.Controls.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Cloud.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Chart.Direct2D.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Chart.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Charting.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.ConversationalUI.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Data.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.DataServices.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.DataVisualization.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Diagrams.Extensions.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Diagrams.Ribbon.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Diagrams.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Docking.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.EntityFrameworkCore.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Expressions.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.FileDialogs.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.FixedDocumentViewers.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.FixedDocumentViewersUI.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.GanttView.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.GridView.Export.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.GridView.SpreadsheetStreamingExport.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.GridView.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.ImageEditor.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Input.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Media.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Navigation.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Pivot.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.PivotFieldList.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.RibbonView.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.RichTextBox.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.ScheduleView.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Spreadsheet.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.SpreadsheetUI.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.SyntaxEditor.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.VirtualGrid.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Controls.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Data.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Diagrams.Core.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Documents.CMapUtils.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Core.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Fixed.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Flow.FormatProviders.Doc.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Flow.FormatProviders.Pdf.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Flow.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Proofing.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Spreadsheet.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.MediaFoundation.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.PersistenceFramework.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Scheduling.Core.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.SyntaxEditor.Core.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Zip.Extensions.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Telerik.Windows.Zip.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\de\Telerik.Windows.Controls.resources.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\es\Telerik.Windows.Controls.resources.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\fr\Telerik.Windows.Controls.resources.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\it\Telerik.Windows.Controls.resources.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\nl\Telerik.Windows.Controls.resources.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\tr\Telerik.Windows.Controls.resources.dll
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\Utilities\DataTemplate.baml
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\FiltersApplication.g.resources
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\FiltersApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\FiltersApplication.AssemblyInfoInputs.cache
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\FiltersApplication.AssemblyInfo.cs
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\FiltersApplication.csproj.CoreCompileInputs.cache
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\FiltersA.C3CBFB2D.Up2Date
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\FiltersApplication.genruntimeconfig.cache
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\ref\FiltersApplication.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Images\calculate_page.png
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Images\filters_page.png
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Images\fuels_page.png
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Images\station_page.png
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Images\home_page.png
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Images\img_calculate.png
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Images\img_filter.png
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Images\img_fuel.png
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Images\img_home.png
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Images\img_setting.png
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Images\img_station.png
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Images\setting_page.png
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Images\shutdown_def.png
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Images\shutdown_mo.png
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Images\hamburger_icon.png
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Images\hamburger_mo.png
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Images\max_def.png
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Images\max_mo.png
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Images\home_img.png
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Images\close_menu_mo.png
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Images\close_menu_def.png
+C:\All\FiltersApplication\obj\Debug\net6.0-windows\FiltersApplication_Content.g.cs
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Microsoft.Data.Sqlite.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\SQLitePCLRaw.core.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\SQLitePCLRaw.batteries_v2.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\runtimes\alpine-arm\native\libe_sqlite3.so
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\runtimes\alpine-arm64\native\libe_sqlite3.so
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\runtimes\browser-wasm\nativeassets\net6.0\e_sqlite3.a
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\runtimes\win-arm\native\e_sqlite3.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+C:\All\FiltersApplication\bin\Debug\net6.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\FiltersApplication.exe
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Images\calculate_page.png
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Images\filters_page.png
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Images\fuels_page.png
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Images\station_page.png
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Images\home_page.png
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Images\img_calculate.png
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Images\img_filter.png
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Images\img_fuel.png
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Images\img_home.png
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Images\img_setting.png
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Images\img_station.png
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Images\setting_page.png
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Images\shutdown_def.png
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Images\shutdown_mo.png
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Images\hamburger_icon.png
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Images\hamburger_mo.png
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Images\max_def.png
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Images\max_mo.png
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Images\home_img.png
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Images\close_menu_mo.png
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Images\close_menu_def.png
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\FiltersApplication.deps.json
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\FiltersApplication.runtimeconfig.json
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\FiltersApplication.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\FiltersApplication.pdb
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Microsoft.Data.Sqlite.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Microsoft.OData.Client.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Microsoft.OData.Core.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Microsoft.OData.Edm.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Microsoft.Spatial.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\SharpDX.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\SharpDX.D3DCompiler.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\SharpDX.Direct2D1.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\SharpDX.Direct3D10.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\SharpDX.Direct3D9.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\SharpDX.DXGI.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\SharpDX.Mathematics.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\SQLitePCLRaw.core.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\MediaFoundation.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Documents.SpreadsheetStreaming.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Pivot.Core.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Pivot.DataProviders.Adomd.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Pivot.DataProviders.Queryable.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Pivot.DataProviders.Xmla.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Cloud.Controls.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Cloud.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Chart.Direct2D.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Chart.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Charting.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.ConversationalUI.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Data.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.DataServices.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.DataVisualization.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Diagrams.Extensions.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Diagrams.Ribbon.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Diagrams.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Docking.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.EntityFrameworkCore.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Expressions.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.FileDialogs.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.FixedDocumentViewers.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.FixedDocumentViewersUI.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.GanttView.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.GridView.Export.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.GridView.SpreadsheetStreamingExport.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.GridView.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.ImageEditor.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Input.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Media.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Navigation.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Pivot.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.PivotFieldList.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.RibbonView.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.RichTextBox.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.ScheduleView.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Spreadsheet.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.SpreadsheetUI.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.SyntaxEditor.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.VirtualGrid.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Data.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Diagrams.Core.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.CMapUtils.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Core.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Fixed.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Flow.FormatProviders.Doc.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Flow.FormatProviders.Pdf.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Flow.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Proofing.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Spreadsheet.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.MediaFoundation.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.PersistenceFramework.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Scheduling.Core.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.SyntaxEditor.Core.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Zip.Extensions.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Zip.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\de\Telerik.Windows.Controls.resources.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\es\Telerik.Windows.Controls.resources.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\fr\Telerik.Windows.Controls.resources.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\it\Telerik.Windows.Controls.resources.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\nl\Telerik.Windows.Controls.resources.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\tr\Telerik.Windows.Controls.resources.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\runtimes\alpine-arm\native\libe_sqlite3.so
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\runtimes\alpine-arm64\native\libe_sqlite3.so
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\runtimes\browser-wasm\nativeassets\net6.0\e_sqlite3.a
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Даниил\Desktop\My Program\bin\Debug\net6.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\FiltersApplication.csproj.AssemblyReference.cache
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\Styles\Button.baml
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\Styles\Image.baml
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\Styles\Page.baml
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\Styles\Text.baml
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\App.baml
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\View\Calculate.g.cs
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\View\Filters.g.cs
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\View\Fuels.g.cs
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\View\Home.g.cs
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\View\Charts.g.cs
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\View\Stations.g.cs
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\FiltersApplication_Content.g.cs
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\FiltersApplication_MarkupCompile.cache
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\FiltersApplication_MarkupCompile.lref
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\Styles\Styles.baml
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\Utilities\DataTemplate.baml
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\View\Calculate.baml
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\View\Filters.baml
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\View\Fuels.baml
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\View\Home.baml
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\View\Charts.baml
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\View\Stations.baml
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\FiltersApplication.g.resources
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\FiltersApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\FiltersApplication.AssemblyInfoInputs.cache
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\FiltersApplication.AssemblyInfo.cs
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\FiltersApplication.csproj.CoreCompileInputs.cache
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\FiltersA.C3CBFB2D.Up2Date
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\FiltersApplication.dll
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\refint\FiltersApplication.dll
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\FiltersApplication.pdb
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\FiltersApplication.genruntimeconfig.cache
+C:\Users\Даниил\Desktop\My Program\obj\Debug\net6.0-windows\ref\FiltersApplication.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\FiltersApplication.exe
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Images\station_page.png
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Images\img_calculate.png
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Images\img_filter.png
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Images\img_fuel.png
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Images\img_home.png
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Images\img_setting.png
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Images\img_station.png
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Images\shutdown_def.png
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Images\shutdown_mo.png
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Images\max_def.png
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Images\max_mo.png
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Images\home_img.png
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\FiltersApplication.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Microsoft.Data.Sqlite.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\SQLitePCLRaw.batteries_v2.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\SQLitePCLRaw.core.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Data.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.GridView.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Input.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Data.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Images\calculate_page.png
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Images\filters_page.png
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Images\fuels_page.png
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Images\home_page.png
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Images\setting_page.png
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Images\hamburger_icon.png
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Images\hamburger_mo.png
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Images\close_menu_mo.png
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Images\close_menu_def.png
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\FiltersApplication.deps.json
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\FiltersApplication.runtimeconfig.json
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\FiltersApplication.pdb
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Microsoft.OData.Client.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Microsoft.OData.Core.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Microsoft.OData.Edm.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Microsoft.Spatial.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\SharpDX.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\SharpDX.D3DCompiler.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\SharpDX.Direct2D1.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\SharpDX.Direct3D10.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\SharpDX.Direct3D9.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\SharpDX.DXGI.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\SharpDX.Mathematics.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\MediaFoundation.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Documents.SpreadsheetStreaming.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Pivot.Core.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Pivot.DataProviders.Adomd.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Pivot.DataProviders.Queryable.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Pivot.DataProviders.Xmla.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Cloud.Controls.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Cloud.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Chart.Direct2D.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Chart.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Charting.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.ConversationalUI.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.DataServices.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.DataVisualization.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Diagrams.Extensions.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Diagrams.Ribbon.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Diagrams.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Docking.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.EntityFrameworkCore.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Expressions.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.FileDialogs.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.FixedDocumentViewers.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.FixedDocumentViewersUI.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.GanttView.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.GridView.Export.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.GridView.SpreadsheetStreamingExport.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.ImageEditor.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Media.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Navigation.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Pivot.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.PivotFieldList.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.RibbonView.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.RichTextBox.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.ScheduleView.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Spreadsheet.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.SpreadsheetUI.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.SyntaxEditor.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.VirtualGrid.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Diagrams.Core.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.CMapUtils.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Core.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Fixed.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Flow.FormatProviders.Doc.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Flow.FormatProviders.Pdf.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Flow.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Proofing.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Spreadsheet.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.MediaFoundation.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.PersistenceFramework.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Scheduling.Core.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.SyntaxEditor.Core.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Zip.Extensions.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Zip.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\de\Telerik.Windows.Controls.resources.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\es\Telerik.Windows.Controls.resources.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\fr\Telerik.Windows.Controls.resources.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\it\Telerik.Windows.Controls.resources.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\nl\Telerik.Windows.Controls.resources.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\tr\Telerik.Windows.Controls.resources.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\runtimes\alpine-arm\native\libe_sqlite3.so
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\runtimes\alpine-arm64\native\libe_sqlite3.so
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\runtimes\browser-wasm\nativeassets\net6.0\e_sqlite3.a
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\runtimes\win-arm\native\e_sqlite3.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\FiltersApplication.csproj.AssemblyReference.cache
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\Styles\Button.baml
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\Styles\Image.baml
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\Styles\Page.baml
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\Styles\Text.baml
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\App.baml
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\View\Calculate.g.cs
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\View\Filters.g.cs
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\View\Fuels.g.cs
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\View\Home.g.cs
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\View\Charts.g.cs
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\View\Stations.g.cs
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\App.g.cs
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\FiltersApplication_Content.g.cs
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\FiltersApplication_MarkupCompile.cache
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\FiltersApplication_MarkupCompile.lref
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\Styles\Styles.baml
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\Utilities\DataTemplate.baml
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\View\Calculate.baml
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\View\Filters.baml
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\View\Fuels.baml
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\View\Home.baml
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\View\Charts.baml
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\View\Stations.baml
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\FiltersApplication.g.resources
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\FiltersApplication.Properties.Resources.resources
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\FiltersApplication.csproj.GenerateResource.cache
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\FiltersApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\FiltersApplication.AssemblyInfoInputs.cache
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\FiltersApplication.AssemblyInfo.cs
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\FiltersApplication.csproj.CoreCompileInputs.cache
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\FiltersA.C3CBFB2D.Up2Date
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\FiltersApplication.dll
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\refint\FiltersApplication.dll
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\FiltersApplication.pdb
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\FiltersApplication.genruntimeconfig.cache
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\ref\FiltersApplication.dll
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\MainProject.g.cs
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\MainProject.baml
+C:\All\Fil App\My Program\obj\Debug\net6.0-windows\Styles\ComboBoxStyle.baml
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Images\Schema_1.png
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Images\Schema_2.png
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Images\Schema_3.png
+C:\All\Fil App\My Program\bin\Debug\net6.0-windows\Images\Schema_4.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\FiltersApplication.exe
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Images\calculate_page.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Images\filters_page.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Images\fuels_page.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Images\station_page.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Images\home_page.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Images\img_calculate.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Images\img_filter.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Images\img_fuel.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Images\img_home.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Images\img_setting.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Images\img_station.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Images\setting_page.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Images\shutdown_def.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Images\shutdown_mo.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Images\hamburger_icon.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Images\hamburger_mo.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Images\max_def.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Images\max_mo.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Images\home_img.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Images\close_menu_mo.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Images\close_menu_def.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Images\Schema_1.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Images\Schema_2.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Images\Schema_3.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Images\Schema_4.png
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\FiltersApplication.deps.json
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\FiltersApplication.runtimeconfig.json
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\FiltersApplication.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\FiltersApplication.pdb
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Microsoft.Data.Sqlite.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Microsoft.OData.Client.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Microsoft.OData.Core.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Microsoft.OData.Edm.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Microsoft.Spatial.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\SharpDX.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\SharpDX.D3DCompiler.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\SharpDX.Direct2D1.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\SharpDX.Direct3D10.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\SharpDX.Direct3D9.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\SharpDX.DXGI.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\SharpDX.Mathematics.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\SQLitePCLRaw.batteries_v2.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\SQLitePCLRaw.core.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\MediaFoundation.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Documents.SpreadsheetStreaming.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Pivot.Core.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Pivot.DataProviders.Adomd.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Pivot.DataProviders.Queryable.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Pivot.DataProviders.Xmla.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Cloud.Controls.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Cloud.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Chart.Direct2D.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Chart.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Charting.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.ConversationalUI.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Data.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.DataServices.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.DataVisualization.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Diagrams.Extensions.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Diagrams.Ribbon.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Diagrams.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Docking.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.EntityFrameworkCore.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Expressions.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.FileDialogs.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.FixedDocumentViewers.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.FixedDocumentViewersUI.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.GanttView.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.GridView.Export.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.GridView.SpreadsheetStreamingExport.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.GridView.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.ImageEditor.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Input.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Media.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Navigation.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Pivot.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.PivotFieldList.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.RibbonView.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.RichTextBox.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.ScheduleView.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Spreadsheet.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.SpreadsheetUI.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.SyntaxEditor.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.VirtualGrid.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Controls.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Data.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Diagrams.Core.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.CMapUtils.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Core.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Fixed.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Flow.FormatProviders.Doc.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Flow.FormatProviders.Pdf.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Flow.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Proofing.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Spreadsheet.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.MediaFoundation.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.PersistenceFramework.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Scheduling.Core.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.SyntaxEditor.Core.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Zip.Extensions.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\Telerik.Windows.Zip.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\de\Telerik.Windows.Controls.resources.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\es\Telerik.Windows.Controls.resources.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\fr\Telerik.Windows.Controls.resources.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\it\Telerik.Windows.Controls.resources.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\nl\Telerik.Windows.Controls.resources.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\tr\Telerik.Windows.Controls.resources.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\runtimes\alpine-arm\native\libe_sqlite3.so
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\runtimes\alpine-arm64\native\libe_sqlite3.so
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\runtimes\browser-wasm\nativeassets\net6.0\e_sqlite3.a
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\runtimes\win-arm\native\e_sqlite3.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+C:\All\ApplicationFilter\My Program\bin\Debug\net6.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\FiltersApplication.csproj.AssemblyReference.cache
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\Styles\Button.baml
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\Styles\ComboBoxStyle.baml
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\Styles\Image.baml
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\Styles\Page.baml
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\Styles\Text.baml
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\App.baml
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\MainProject.g.cs
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\View\Calculate.g.cs
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\View\Filters.g.cs
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\View\Fuels.g.cs
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\View\Home.g.cs
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\View\Charts.g.cs
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\View\Stations.g.cs
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\App.g.cs
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\FiltersApplication_Content.g.cs
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\FiltersApplication_MarkupCompile.cache
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\FiltersApplication_MarkupCompile.lref
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\MainProject.baml
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\Styles\Styles.baml
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\Utilities\DataTemplate.baml
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\View\Calculate.baml
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\View\Filters.baml
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\View\Fuels.baml
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\View\Home.baml
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\View\Charts.baml
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\View\Stations.baml
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\FiltersApplication.g.resources
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\FiltersApplication.Properties.Resources.resources
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\FiltersApplication.csproj.GenerateResource.cache
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\FiltersApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\FiltersApplication.AssemblyInfoInputs.cache
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\FiltersApplication.AssemblyInfo.cs
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\FiltersApplication.csproj.CoreCompileInputs.cache
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\FiltersApplication.sourcelink.json
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\FiltersA.C3CBFB2D.Up2Date
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\FiltersApplication.dll
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\refint\FiltersApplication.dll
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\FiltersApplication.pdb
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\FiltersApplication.genruntimeconfig.cache
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\ref\FiltersApplication.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\FiltersApplication.exe
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Images\calculate_page.png
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Images\filters_page.png
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Images\fuels_page.png
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Images\station_page.png
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Images\home_page.png
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Images\img_calculate.png
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Images\img_filter.png
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Images\img_fuel.png
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Images\img_home.png
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Images\img_setting.png
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Images\img_station.png
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Images\setting_page.png
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Images\shutdown_def.png
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Images\shutdown_mo.png
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Images\hamburger_icon.png
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Images\hamburger_mo.png
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Images\max_def.png
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Images\max_mo.png
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Images\home_img.png
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Images\close_menu_mo.png
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Images\close_menu_def.png
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Images\Schema_1.png
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Images\Schema_2.png
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Images\Schema_3.png
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Images\Schema_4.png
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\FiltersApplication.deps.json
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\FiltersApplication.runtimeconfig.json
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\FiltersApplication.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\FiltersApplication.pdb
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Microsoft.Data.Sqlite.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Microsoft.OData.Client.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Microsoft.OData.Core.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Microsoft.OData.Edm.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Microsoft.Spatial.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\SharpDX.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\SharpDX.D3DCompiler.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\SharpDX.Direct2D1.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\SharpDX.Direct3D10.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\SharpDX.Direct3D9.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\SharpDX.DXGI.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\SharpDX.Mathematics.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\SQLitePCLRaw.batteries_v2.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\SQLitePCLRaw.core.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\MediaFoundation.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Documents.SpreadsheetStreaming.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Pivot.Core.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Pivot.DataProviders.Adomd.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Pivot.DataProviders.Queryable.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Pivot.DataProviders.Xmla.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Cloud.Controls.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Cloud.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Chart.Direct2D.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Chart.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Charting.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.ConversationalUI.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Data.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.DataServices.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.DataVisualization.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Diagrams.Extensions.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Diagrams.Ribbon.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Diagrams.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Docking.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.EntityFrameworkCore.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Expressions.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.FileDialogs.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.FixedDocumentViewers.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.FixedDocumentViewersUI.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.GanttView.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.GridView.Export.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.GridView.SpreadsheetStreamingExport.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.GridView.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.ImageEditor.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Input.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Media.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Navigation.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Pivot.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.PivotFieldList.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.RibbonView.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.RichTextBox.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.ScheduleView.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.Spreadsheet.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.SpreadsheetUI.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.SyntaxEditor.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.VirtualGrid.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Controls.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Data.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Diagrams.Core.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Documents.CMapUtils.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Core.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Fixed.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Flow.FormatProviders.Doc.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Flow.FormatProviders.Pdf.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Flow.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Proofing.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Documents.Spreadsheet.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.MediaFoundation.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.PersistenceFramework.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Scheduling.Core.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.SyntaxEditor.Core.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Zip.Extensions.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\Telerik.Windows.Zip.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\de\Telerik.Windows.Controls.resources.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\es\Telerik.Windows.Controls.resources.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\fr\Telerik.Windows.Controls.resources.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\it\Telerik.Windows.Controls.resources.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\nl\Telerik.Windows.Controls.resources.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\tr\Telerik.Windows.Controls.resources.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\runtimes\alpine-arm\native\libe_sqlite3.so
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\runtimes\alpine-arm64\native\libe_sqlite3.so
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\runtimes\browser-wasm\nativeassets\net6.0\e_sqlite3.a
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\runtimes\win-arm\native\e_sqlite3.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+C:\All\ApplicationFilter\Application\bin\Debug\net6.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\FiltersApplication.csproj.AssemblyReference.cache
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\Styles\Button.baml
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\Styles\ComboBoxStyle.baml
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\Styles\Image.baml
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\Styles\Page.baml
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\Styles\Text.baml
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\App.baml
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\MainProject.g.cs
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\View\Calculate.g.cs
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\View\Filters.g.cs
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\View\Fuels.g.cs
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\View\Home.g.cs
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\View\Charts.g.cs
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\View\Stations.g.cs
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\App.g.cs
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\FiltersApplication_Content.g.cs
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\FiltersApplication_MarkupCompile.cache
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\FiltersApplication_MarkupCompile.lref
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\MainProject.baml
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\Styles\Styles.baml
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\Utilities\DataTemplate.baml
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\View\Calculate.baml
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\View\Filters.baml
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\View\Fuels.baml
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\View\Home.baml
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\View\Charts.baml
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\View\Stations.baml
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\FiltersApplication.g.resources
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\FiltersApplication.Properties.Resources.resources
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\FiltersApplication.csproj.GenerateResource.cache
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\FiltersApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\FiltersApplication.AssemblyInfoInputs.cache
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\FiltersApplication.AssemblyInfo.cs
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\FiltersApplication.csproj.CoreCompileInputs.cache
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\FiltersApplication.sourcelink.json
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\FiltersA.C3CBFB2D.Up2Date
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\FiltersApplication.dll
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\refint\FiltersApplication.dll
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\FiltersApplication.pdb
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\FiltersApplication.genruntimeconfig.cache
+C:\All\ApplicationFilter\Application\obj\Debug\net6.0-windows\ref\FiltersApplication.dll
