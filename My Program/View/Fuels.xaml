@@ -155,7 +155,7 @@
                         <telerik:RadComboBox x:Name="radComboBox" Margin="0 10 0 10" Grid.Row="1" EmptyText="Выберите топливо для расчета..." FontFamily="Century Gothic" 
                              AllowMultipleSelection="True" ItemsSource="{Binding Fuels}" SelectedValuePath="BrandFuel"
                              MultipleSelectionSeparator="{Binding ElementName=MultipleSelectionSeparator, Path=Text, Mode=TwoWay}"
-                             TextSearch.TextPath="BrandFuel" ItemTemplate="{StaticResource CheckBoxItemTemplate}" SelectedItem="{Binding SelectedFuels}"
+                             TextSearch.TextPath="BrandFuel" ItemTemplate="{StaticResource CheckBoxItemTemplate}" SelectionChanged="RadComboBox_SelectionChanged"
                              IsEditable="{Binding IsChecked, ElementName=IsEditable}"/>
                     </Grid>
                     <telerik:RadDataPager x:Name="radDataPager" FontFamily="Century Gothic"

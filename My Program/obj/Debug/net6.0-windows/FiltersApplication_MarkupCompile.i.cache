@@ -4,12 +4,12 @@
 winexe
 C#
 .cs
-C:\All\Fil App\My Program\obj\Debug\net6.0-windows\
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\
 FiltersApplication
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\All\Fil App\My Program\App.xaml
+C:\All\ApplicationFilter\My Program\App.xaml
 14-512267338
 27876593348
 30-1436326926

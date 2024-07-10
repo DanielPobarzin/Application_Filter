@@ -1,0 +1,20 @@
+﻿FiltersApplication
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\All\ApplicationFilter\My Program\obj\Debug\net6.0-windows\win10-x64\
+FiltersApplication
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+C:\All\ApplicationFilter\My Program\App.xaml
+14-512267338
+27876593348
+30-1308970695
+284-1521578154
+MainProject.xaml;Styles\Button.xaml;Styles\ComboBoxStyle.xaml;Styles\Image.xaml;Styles\Page.xaml;Styles\Styles.xaml;Styles\Text.xaml;Utilities\DataTemplate.xaml;View\Calculate.xaml;View\Filters.xaml;View\Fuels.xaml;View\Home.xaml;View\Charts.xaml;View\Stations.xaml;
+
+False
+

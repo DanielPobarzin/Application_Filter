@@ -1266,7 +1266,69 @@
             </Setter.Value>
         </Setter>
     </Style>
+    
 
     <!--#endregion-->
 
+    <!--Play Button-->
+    <Image x:Key="Play_Default"
+           Source="{StaticResource Play_Def}"
+           Stretch="Uniform" />
+
+    <Image x:Key="Play_MouseOver"
+           Source="{StaticResource Play_Mo}"
+           Stretch="Uniform" />
+
+    <ImageBrush x:Key="PlayBtn_Background"
+                ImageSource="{StaticResource Play_Def}"
+                Stretch="Uniform" />
+
+    <ImageBrush x:Key="PlayBtn_IsMouseOver"
+                ImageSource="{StaticResource Play_Mo}"
+                Stretch="Uniform" />
+
+    <ImageBrush x:Key="PlayBtn_IsPressed"
+                ImageSource="{StaticResource Stop_Def}"
+                Stretch="Uniform" />
+
+    <Style x:Key="PlayBtn_Style"
+           TargetType="ToggleButton">
+
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ToggleButton">
+
+                    <Border x:Name="border"
+                            Background="{StaticResource PlayBtn_Background}">
+                        <ContentPresenter />
+                    </Border>
+
+                    <ControlTemplate.Triggers>
+
+                        <Trigger Property="IsMouseOver"
+                                 Value="True">
+
+                            <Setter Property="Background"
+                                    TargetName="border"
+                                    Value="{StaticResource PlayBtn_IsMouseOver}" />
+
+                        </Trigger>
+
+                        <Trigger Property="IsChecked"
+                                 Value="True">
+
+                            <Setter Property="Background"
+                                    TargetName="border"
+                                    Value="{StaticResource PlayBtn_IsPressed}" />
+
+                        </Trigger>
+
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+ 
 </ResourceDictionary>

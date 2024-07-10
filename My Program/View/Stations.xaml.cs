@@ -34,7 +34,7 @@ namespace FiltersApplication.View
 			comboBoxTypeFlueGasSupply.Items.AddRange(new object[] { "Подвод дымовых газов снизу", "Прямой подвод дымовых газов" });
 			_currentParametersStantion ??= new Station();
 		}
-private void SchemeOne(object sender, RoutedEventArgs e)
+		private void SchemeOne(object sender, RoutedEventArgs e)
 		{
 			_currentParametersStantion.SchemeBunkerPartitions = 1;
 		}

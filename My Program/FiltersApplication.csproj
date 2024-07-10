@@ -6,6 +6,7 @@
     <RootNamespace>FiltersApplication</RootNamespace>
     <EnableDefaultItems>False</EnableDefaultItems>
     <ApplicationIcon>Images\OST.ico</ApplicationIcon>
+	  <PublishSingleFile>true</PublishSingleFile>
   </PropertyGroup>
 
   <ItemGroup>

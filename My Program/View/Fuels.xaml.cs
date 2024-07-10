@@ -4,38 +4,26 @@ using FiltersApplication.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
 using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using System.Windows.Threading;
-using System.Xml.Linq;
 using Telerik.Windows.Controls;
-using Telerik.Windows.Controls.Data.DataFilter;
-using Telerik.Windows.Diagrams.Core;
+
 
 namespace FiltersApplication.View
 {
-    public partial class Fuels : UserControl
+	public partial class Fuels : UserControl
     {
-		public ObservableCollection<Fuel> SelectedFuels { get; set; }
+		public ObservableCollection<Fuel> SelFuels { get; set; }
 		DispatcherTimer timer = new DispatcherTimer();
+		
 		public Fuels()
         {
 			LocalizationManager.Manager = new CustomLocalizationManager();
 			InitializeComponent();
 			Loading();
-			radComboBox.SelectionChanged += RadComboBox_SelectionChanged;
 		}
 
 		private void timer_tick(object sender, EventArgs e)
@@ -74,8 +62,9 @@ namespace FiltersApplication.View
 		}
 		private void RadComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
 		{
-			SelectedFuels = new ObservableCollection<Fuel>(radComboBox.SelectedItems.Cast<Fuel>());
-			GlobalSingletonFilterModel.Instance.SelectedFuels = SelectedFuels;
+            SelFuels = new ObservableCollection<Fuel>(radComboBox.SelectedItems.Cast<Fuel>());
+			if (DataContext is FuelsVM viewModel) 
+				viewModel.SelectedFuels = SelFuels; 
 		}
 		private void fuelsGrid_PreviewKeyDown(object sender, KeyEventArgs e)
 		{

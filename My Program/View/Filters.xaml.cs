@@ -60,10 +60,6 @@ namespace FiltersApplication.View
 		{
 			this.radComboBox.MultipleSelectionBoxTemplate = (sender as CheckBox).IsChecked.Value ? this.Resources["MultipleSelectionBoxTemplate"] as DataTemplate : null;
 		}
-		private void RadComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-		{
-			GlobalSingletonFilterModel.Instance.SelectedFilter = SelectedFilter;
-		}
 
 		private void filtersGrid_PreviewKeyDown(object sender, KeyEventArgs e)
 		{

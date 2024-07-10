@@ -84,7 +84,7 @@ namespace FiltersApplication.ViewModel
 			catch
 			{
 				MessageBox.Show("При записи данных в базу, обнаружены пустые поля. Заполните пустые поля или удалите их.",
-				"Ошибка записи данных", MessageBoxButton.OK, MessageBoxImage.Warning);
+				"Ошибка записи данных", MessageBoxButton.OK, MessageBoxImage.Error);
 			}
 			finally
 			{

@@ -13,23 +13,16 @@ using Telerik.Windows.Controls;
 
 namespace FiltersApplication.Model
 {
-	public class GlobalSingletonFilterModel :  INotifyPropertyChanged
+	public sealed class GlobalSingletonFilterModel :  INotifyPropertyChanged
 	{
-		private static GlobalSingletonFilterModel instance;
+		private GlobalSingletonFilterModel() { }
 		private Filter _selectedFilter;
 		private Station _currentParametersStation;
-		private ObservableCollection<Fuel> _selectedFuels; 
-		public static GlobalSingletonFilterModel Instance
-		{
-			get
-			{
-				if (instance == null)
-				{
-					instance = new GlobalSingletonFilterModel();
-				}
-				return instance;
-			}
-		}
+		private ObservableCollection<Fuel> _selectedFuels;
+		private static readonly Lazy<GlobalSingletonFilterModel> lazy =
+		new Lazy<GlobalSingletonFilterModel>(() => new GlobalSingletonFilterModel());
+		public static GlobalSingletonFilterModel Instance { get { return lazy.Value; } }
+
 		public ObservableCollection<Fuel> SelectedFuels
 		{
 			get { return _selectedFuels; }
@@ -57,6 +50,7 @@ namespace FiltersApplication.Model
 				OnPropertyChanged(nameof(CurrentParametersStation));
 			}
 		}
+
 
 		public event PropertyChangedEventHandler PropertyChanged;
 

@@ -31,5 +31,9 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/home_img.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/close_menu_mo.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/close_menu_def.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/schema_1.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/schema_2.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/schema_3.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/schema_4.png")]
 
 
