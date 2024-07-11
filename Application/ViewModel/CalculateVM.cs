@@ -22,7 +22,7 @@ namespace FiltersApplication.ViewModel
 		private string patternBrandFilter = @"[а-яА-Я\d]";
 		private string patternBrandFuel = @"[а-яА-Я]";
 		private string patternStation = @"[\d]";
-		private bool continueCalc;
+		public bool continueCalc;
 		private Filter _selectedFilter;
 		private Station _currentPropertyStation;
 		private ObservableCollection<Fuel> _selectedFuels;
@@ -79,13 +79,14 @@ namespace FiltersApplication.ViewModel
 				return _calculateCommand;
 			}
 		}
-		public void CaclulateButton_Click(object obj)
+
+		public bool Initialize(object obj)
 		{
 			Result = new CalculatingProcess();
 			Results = new Dictionary<string, CalculatingProcess>();
 			Result.AshConcentrationEntranceMthField = new List<double>();
 			Result.OptimalAshShakingMode = new List<double>();
-			try 
+			try
 			{
 				SelectFilter = (Regex.IsMatch(GlobalSingletonFilterModel.Instance.SelectedFilter.BrandFilter.ToString(), patternBrandFilter)) ?
 				GlobalSingletonFilterModel.Instance.SelectedFilter : null;
@@ -94,16 +95,24 @@ namespace FiltersApplication.ViewModel
 				SelectFuels = (Regex.IsMatch(GlobalSingletonFilterModel.Instance.SelectedFuels[0].BrandFuel.ToString(), patternBrandFuel)) ?
 				GlobalSingletonFilterModel.Instance.SelectedFuels : null;
 				if (SelectFilter == null || CurrentPropertyStation == null || SelectFuels == null)
-					throw new Exception(); 
+					throw new Exception();
 			}
-			catch { MessageBox.Show("Не определены данные для расчета. Проверьте, что вы указали все необходимые данные.", 
-				"Предупреждение", MessageBoxButton.OK, MessageBoxImage.Warning);
-				Results.Clear(); Execute = false; return;}
-			Execute = true;
-			foreach (Fuel fuel in SelectFuels)
+			catch
 			{
-				Results.Add(fuel.BrandFuel, MainProgram(fuel, CurrentPropertyStation, SelectFilter));
+				MessageBox.Show("Не определены данные для расчета. Проверьте, что вы указали все необходимые данные.",
+				"Предупреждение", MessageBoxButton.OK, MessageBoxImage.Warning);
+				Results.Clear(); Execute = false; return false;
 			}
+			return true;
+		}
+
+		public void CaclulateButton_Click(object obj)
+		{
+			Results.Clear();
+				foreach (Fuel fuel in SelectFuels)
+				{
+					 Results.Add(fuel.BrandFuel, MainProgram(fuel, CurrentPropertyStation, SelectFilter));
+				}
 		}
 
 		private CalculatingProcess MainProgram(Fuel fuel, Station CurrentPropertyStation, Filter SelectedFilter)
@@ -121,7 +130,7 @@ namespace FiltersApplication.ViewModel
 				CRelativeHeightLiftShaft(CurrentPropertyStation, SelectedFilter);
 				CPassageAshTakingAccountUNEVENNESSFieldVelocity(CurrentPropertyStation, SelectedFilter);
 				CPassageAshTakingAccountGasLeaksZones(CurrentPropertyStation, SelectedFilter);
-				CDegreeAshCapture();
+				CDegreeAshCapture(fuel);
 				if (continueCalc)
 				{
 					CAmountAshFormedProductsMechanicalUnderburning(CurrentPropertyStation, fuel);
@@ -232,12 +241,12 @@ namespace FiltersApplication.ViewModel
 				App.СoeffIncreasePassageWeakenedElectricField + Result.PassageAshInactiveZones;
 			return;
 		}
-		private void CDegreeAshCapture()
+		private void CDegreeAshCapture(Fuel SelectedFuel)
 		{
 			Result.DegreeAshCapture = 1 - Result.PassageAshTakingAccountGasLeaksZones;
 			if (Result.DegreeAshCapture < 0.99)
 			{
-				MessageBoxResult result = MessageBox.Show($"Степень улавливания золы ниже минимально допустимого значения. Желаете продолжить расчет?",
+				MessageBoxResult result = MessageBox.Show($"Степень улавливания золы для топлива типа {SelectedFuel.BrandFuel} ниже минимально допустимого значения. Желаете продолжить расчет?",
 					"Подтверждение", MessageBoxButton.YesNo, MessageBoxImage.Question);
 				if (result == MessageBoxResult.No)
 				{

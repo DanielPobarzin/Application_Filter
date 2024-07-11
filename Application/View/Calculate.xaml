@@ -214,7 +214,7 @@ FontSize="16" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold" ></TextBl
                        TextAlignment="Center"
                        Margin="0,40,0,0" />
                     </Grid>
-                    <Border Name="BorderSuccess" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="4" Margin="10 20 10 0" Grid.RowSpan="5" MinHeight="500" Height="500" MaxHeight="500">
+                    <Border Name="BorderSuccess" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="4" Margin="10 20 10 0" Grid.RowSpan="5" MinHeight="10" Height="10" MaxHeight="600">
                         <Grid Margin="10 10 10 0">
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" />

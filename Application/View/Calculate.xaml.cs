@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -24,16 +25,16 @@ namespace FiltersApplication.View
 	public partial class Calculate : UserControl
 	{
 		private DataTemplate dataFourTemplate;
+		private DataTemplate dataContentTemplate;
 		private DataTemplate dataThreeTemplate;
 		private ContentPresenter contentThreeTemplatePresenter = new ContentPresenter();
 		private ContentPresenter contentFourTemplatePresenter = new ContentPresenter();
-		private CalculateVM vm = new CalculateVM();
 		
 		public Calculate()
 		{
 			InitializeComponent();
 			DataContext = new CalculateVM();
-			
+			dataContentTemplate = (DataTemplate)this.Resources["AshCleanForFourFieldFilter"];
 			dataFourTemplate = (DataTemplate)this.Resources["AshCleanForFourFieldFilter"];
 			dataThreeTemplate = (DataTemplate)this.Resources["AshCleanForThreeFieldFilter"];
 			contentFourTemplatePresenter.ContentTemplate = dataFourTemplate;
@@ -53,27 +54,26 @@ namespace FiltersApplication.View
 				case (1): LoadText.Text = "Загрузка".ToString(); break;
 				case (30): LoadText.Text = "Обработка".ToString(); break;
 				case (80): LoadText.Text = "Расчет".ToString(); break;
-				case (99): _timer.Stop(); TimerLabel.Text = "✔".ToString(); LoadText.Text = "".ToString(); break;
+				case (99):
+					StopTimer(); TimerLabel.Text = "✔".ToString(); 
+					LoadText.Text = "".ToString(); break;
 			}
 			if (TimerLabel.Text == "✔")
 			{
 				var SelectFuels = GlobalSingletonFilterModel.Instance.SelectedFuels;
-				MessageBox.Show($"{SelectFuels.Count}");
-				foreach (var b in SelectFuels)
+				var PropertyStation = GlobalSingletonFilterModel.Instance.CurrentParametersStation;
+				var PropertyFilter = GlobalSingletonFilterModel.Instance.SelectedFilter;
+				for (int i = 0; i < SelectFuels.Count(); i++)
 				{
-					var c = new ContentPresenter();
-					var m = new ContentPresenter();
-					c.ContentTemplate = dataFourTemplate;
-					m.ContentTemplate = dataThreeTemplate;
-					
-					GridAshClean.RowDefinitions.Add(new RowDefinition());
-					GridAshClean.RowDefinitions.Add(new RowDefinition());
-					
-					GridAshClean.Children.Add(c);
-					Grid.SetRow(c, 0); // Приведение типа к Grid
-					GridAshClean.Children.Add(m);
-					Grid.SetRow(m, 1); // Приведение типа к Grid
-
+					var contentTemplatePresenter = new ContentPresenter();
+					switch (PropertyFilter.NumberFields)
+					{
+						case 3 : contentTemplatePresenter.ContentTemplate = dataThreeTemplate; break;
+						case 4: contentTemplatePresenter.ContentTemplate = dataFourTemplate; break;
+					}
+					GridAshClean.RowDefinitions.Add(new RowDefinition());					
+					GridAshClean.Children.Add(contentTemplatePresenter);
+					Grid.SetRow(contentTemplatePresenter, i); 
 				}
 
 				Start_Btn.IsChecked = false;
@@ -111,12 +111,9 @@ namespace FiltersApplication.View
 				_timer.Tick -= timer_Tick;
 				counter = 0;
 			}
-			if (DataContext is CalculateVM vm && vm.Execute)
-			{
-				GridLoad.Visibility = Visibility.Visible;
-				ImageLoad.Visibility = Visibility.Visible;
-				StartCalculate.Visibility = Visibility.Collapsed;
-			}
+			GridLoad.Visibility = Visibility.Visible;
+			ImageLoad.Visibility = Visibility.Visible;
+			StartCalculate.Visibility = Visibility.Collapsed;
 			_timer.Interval = TimeSpan.FromMilliseconds(50);
 			_timer.Tick += timer_Tick;
 			_timer.Start();
@@ -135,41 +132,32 @@ namespace FiltersApplication.View
 			_timer.Stop();
 			TimerLabel.Text = "".ToString();
 		}
-		private void Start_Btn_Checked(object sender, RoutedEventArgs e)
-		{
-			StartTimer();
-
-		}
-
-		private void Start_Btn_Unchecked(object sender, RoutedEventArgs e)
-		{
-			StopTimer();
-		}
-
-		private void Uncheck_Stop(object sender, RoutedEventArgs e)
-		{
-			Start_Btn.IsChecked = false;
-		}
 		private void Start_Click(object sender, RoutedEventArgs e)
 		{
 			if (Start_Btn.IsChecked == true)
 			{
 				if (DataContext is CalculateVM vm)
 				{
-					Start_Btn.Command = vm.CalculateCommand;
-					if (vm.Execute)
+					if (vm.Initialize(sender))
 					{
+						StartTimer();
+						Start_Btn.Command = vm.CalculateCommand;
 						Start_Btn.IsChecked = true;
-						Start_Btn_Checked(sender, e);
+						
 					}
 					else
 					{
 						Start_Btn.IsChecked = false;
-						Start_Btn_Unchecked(sender, e);
+						StopTimer();
 					}
 				}
 			}
+			else
+			{
+				StopTimer();
+			}
 		}
+
 		//private void CaclulateProc(CalculatingProcess result, EventArgs e)
 		//{
 		//	if (DataContext is CalculateVM vm) 
