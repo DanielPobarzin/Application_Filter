@@ -288,10 +288,8 @@ namespace FiltersApplication.ViewModel
 		}
 		private void COptimalAshShakingMode()
 		{
-			int i = 0;
 			foreach (double AshConcentration in Result.AshConcentrationEntranceMthField)
 			{
-				i++;
 				Result.OptimalAshShakingMode.Add(16.7 * Result.AreaDepositionOneField * Result.OptimalValueDustCapacity /
 				(Result.NumberGasesEnteringOneField * AshConcentration * Result.DegreeAshCaptureFirstField));
 			}
