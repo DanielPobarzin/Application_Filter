@@ -27,12 +27,9 @@ namespace FiltersApplication
 		DispatcherTimer timer = new DispatcherTimer();
 		public MainProject()
         {
-           
             InitializeComponent();
             loading.Source = new Uri(Environment.CurrentDirectory + @"\0001.gif");
             Loading();
-
-			
 		}
 
         private void MovingWin(object sender, RoutedEventArgs e)
@@ -103,7 +100,6 @@ namespace FiltersApplication
 			if (ResponsiveWindow.ActualWidth < 500)
 			{
 				Size_Click_Min(MenuClose, EventArgs.Empty);
-				
 			}
 			else
 			{

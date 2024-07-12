@@ -25,7 +25,7 @@ namespace FiltersApplication.View
 
         public Home()
         {
-            InitializeComponent();
+			InitializeComponent();
         }
     }
 }

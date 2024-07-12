@@ -28,17 +28,7 @@ namespace FiltersApplication.ViewModel
 
 		public StationVM()
         {
-			try
-			{
 
-			}catch 
-			{
-				
-			}
-			finally
-			{
-
-			}
         }
     }
 }

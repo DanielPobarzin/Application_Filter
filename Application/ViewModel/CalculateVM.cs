@@ -151,62 +151,51 @@ namespace FiltersApplication.ViewModel
 		{
 			Result.VolumetricGasConsumption = CurrentPropertyStation.FuelConsumption * (SelectedFuel.TheoreticalVolumeGas + 1.016 * (CurrentPropertyStation.AirSuction - 1) *
 					SelectedFuel.TheoreticalAirVolume) * (273 + CurrentPropertyStation.ExhaustGasTemperature) / 273;
-			return;
 		}
 		private void CFlueGasVelocity(Filter SelectedFilter, Station CurrentPropertyStation)
 		{
 			Result.FlueGasVelocity = Result.VolumetricGasConsumption / (CurrentPropertyStation.NumberSmokePumps * SelectedFilter.AreaActiveSection);
-			return;
 		}
 		private void CEffectiveStrength(Fuel SelectedFuel)
 		{
 			Result.EffectiveStrength = SelectedFuel.CoefficientReverseCrown * SelectedFuel.ElectricFieldStrength;
-			return;
 		}
 		private void CTrateDriftAshParticles(Fuel SelectedFuel)
 		{
 			Result.TrateDriftAshParticles = 0.25 * Math.Pow(Result.EffectiveStrength, 2)  * SelectedFuel.MedianDiameterAsh;
-			return;
 		}
 		private void CHeightCoefficientElectrode(Filter SelectedFilter)
 		{
 			Result.HeightCoefficientElectrode = 7.5 / SelectedFilter.ElectrodeHeight;
-			return;
 		}
 		private void CCoeffSecondaryEntrainmentTrappedAsh(Filter SelectedFilter)
 		{
 			Result.CoeffSecondaryEntrainmentTrappedAsh = Result.HeightCoefficientElectrode * App.СoefficientElectrodeType * SelectedFilter.СoefficientShakingMode * 
 				(1 - 0.25 * (Result.FlueGasVelocity - 1));
-			return;
 		}
 		private void CParameterAshCollectionUNIFORMVelocityField(Filter SelectedFilter)
 		{
 			Result.ParameterAshCollectionUNIFORMVelocityField = 0.2 * Result.CoeffSecondaryEntrainmentTrappedAsh *
 				Math.Sqrt(Result.TrateDriftAshParticles / Result.FlueGasVelocity) * SelectedFilter.NumberFields * 
 				SelectedFilter.ActiveFieldLength / SelectedFilter.DistanceCPDevices;
-			return;
 		}
 		private void CAshEmissionUniformVelocityField()
 		{
 			Result.AshEmissionUniformVelocityField = Math.Exp(-Result.ParameterAshCollectionUNIFORMVelocityField);
-			return;
 		}
 		private void CDegreeAshCaptureUNIFORMVelocityField()
 		{
 			Result.DegreeAshCaptureUNIFORMVelocityField = 1 - Result.AshEmissionUniformVelocityField;
-			return;
 		}
 		private void CCoeffRelativeIncreaseInfluenceUnevenness()
 		{
 			Result.CoeffRelativeIncreaseInfluenceUnevenness = 0.125 * (1 + Result.ParameterAshCollectionUNIFORMVelocityField ) * Result.ParameterAshCollectionUNIFORMVelocityField;
-			return;
 		}
 		private void CRelativeHeightLiftShaft(Station CurrentPropertyStation, Filter SelectedFilter)
 		{
 			double[] ListValue = { 0, 0.4, 0.8 };
 			Result.RelativeHeightLiftingShaft = CurrentPropertyStation.HeightLiftShaft / SelectedFilter.ElectrodeHeight;
 			Result.RelativeHeightLiftingShaft = FindClosestValue(Result.RelativeHeightLiftingShaft, ListValue);
-			return;
 		}
 		static double FindClosestValue(double target, double[] values)
 		{
@@ -231,7 +220,6 @@ namespace FiltersApplication.ViewModel
 				App.SquareVelocityDeviationAverageValueCentralSupply[SelectedFilter.NumberFields][CurrentPropertyStation.NumberGrids];
 			Result.PassageAshTakingAccountUNEVENNESSFieldVelocity = (1 + Result.CoeffRelativeIncreaseInfluenceUnevenness * 
 				Math.Pow(Result.SquareVelocityDeviationAverageValue, 2)) * Result.AshEmissionUniformVelocityField;
-			return;
 		}
 		private void CPassageAshTakingAccountGasLeaksZones(Station CurrentPropertyStation, Filter SelectedFilter)
 		{
@@ -239,7 +227,6 @@ namespace FiltersApplication.ViewModel
 			Result.PassageAshTakingAccountGasLeaksZones = (1 - Result.PassageAshInactiveZones - App.PassageAshSemiActiveZones) *
 				Result.PassageAshTakingAccountUNEVENNESSFieldVelocity + App.PassageAshSemiActiveZones * Result.PassageAshTakingAccountUNEVENNESSFieldVelocity *
 				App.СoeffIncreasePassageWeakenedElectricField + Result.PassageAshInactiveZones;
-			return;
 		}
 		private void CDegreeAshCapture(Fuel SelectedFuel)
 		{
@@ -266,38 +253,31 @@ namespace FiltersApplication.ViewModel
 			Result.AmountAshFormedProductsMechanicalUnderburning = 10 * CurrentPropertyStation.FuelConsumption *
 				(App.ProportionCarriedAshDuringSlagRemoval[CurrentPropertyStation.SlagRemoval] * SelectedFuel.AshContent + 
 				App.MechanicalUnderburningFuel * SelectedFuel.LowerHeatCombustion / 32.68);
-			return;
 		}
 		private void CAshConcentrationEntranceToFirstField()
 		{
 			Result.AshConcentrationEntranceToFirstField = Result.AmountAshFormedProductsMechanicalUnderburning / Result.VolumetricGasConsumption;
-			return;
 		}
 		private void CPassageAshFirstField(Filter SelectedFilter)
 		{
 			double deg = 1 / SelectedFilter.NumberFields;
 			Result.PassageAshFirstField = Math.Pow(Result.PassageAshTakingAccountGasLeaksZones, 1.0 / SelectedFilter.NumberFields);
-			return;
 		}
 		private void CDegreeAshCaptureFirstField()
 		{
 			Result.DegreeAshCaptureFirstField = 1 - Result.PassageAshFirstField;
-			return;
 		}
 		private void COptimalValueDustCapacity(Fuel SelectedFuel)
 		{
 			Result.OptimalValueDustCapacity = 3.14 - 0.25 * SelectedFuel.ElectricalResistanceAsh;
-			return;
 		}
 		private void CAreaDepositionOneField(Filter SelectedFilter)
 		{
 			Result.AreaDepositionOneField = SelectedFilter.TotalDepositionArea / SelectedFilter.NumberFields;
-			return;
 		}
 		private void CNumberGasesEnteringOneField(Station CurrentPropertyStation)
 		{
 			Result.NumberGasesEnteringOneField = Result.VolumetricGasConsumption / CurrentPropertyStation.NumberSmokePumps;
-			return;
 		}
 		private void CAshConcentrationEntranceMthField(Filter SelectedFilter)
 		{
@@ -305,8 +285,6 @@ namespace FiltersApplication.ViewModel
 			{
 				Result.AshConcentrationEntranceMthField.Add(Result.AshConcentrationEntranceToFirstField * Math.Pow(Result.PassageAshFirstField, i - 1));
 			}
-
-			return;
 		}
 		private void COptimalAshShakingMode()
 		{
@@ -317,9 +295,7 @@ namespace FiltersApplication.ViewModel
 				Result.OptimalAshShakingMode.Add(16.7 * Result.AreaDepositionOneField * Result.OptimalValueDustCapacity /
 				(Result.NumberGasesEnteringOneField * AshConcentration * Result.DegreeAshCaptureFirstField));
 			}
-			return;
 		}
-
 	}
 }
 

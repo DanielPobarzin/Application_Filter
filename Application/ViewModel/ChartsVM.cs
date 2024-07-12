@@ -14,12 +14,9 @@ namespace FiltersApplication.ViewModel
 {
     public class ChartsVM : ViewModelBase
 	{
-       
 		public ChartsVM()
 		{
 			
 		}
-
-	
 	}
 }

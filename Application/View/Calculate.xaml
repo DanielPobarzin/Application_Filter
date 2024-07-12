@@ -10,9 +10,6 @@
 
     <UserControl.Resources>
         <DataTemplate x:Key="AshCleanForFourFieldFilter">
-            <DataTemplate.Resources>
-                <ViewModel:CalculateVM x:Key="CalculateVM"/>
-            </DataTemplate.Resources>
             <Grid>
                 <ScrollViewer VerticalScrollBarVisibility="Auto">
                     <Border Margin="10 40 10 10" BorderBrush="Gray" BorderThickness="3" CornerRadius="20">
@@ -30,7 +27,7 @@
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" Margin="10" VerticalAlignment="Top"  HorizontalAlignment="Stretch">
                                 <TextBlock TextAlignment="Left" HorizontalAlignment="Left" Foreground="#DCE0E4" Text="Топливо: " FontSize="18" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"/>
-                                <TextBlock TextAlignment="Left" HorizontalAlignment="Left" Foreground="#DCE0E4" Text="{Binding Source={StaticResource CalculateVM}, Path=SelectFuels}" FontSize="18" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"/>
+                                <TextBlock Name="Fuel" TextAlignment="Left" HorizontalAlignment="Left" Foreground="#DCE0E4" FontSize="18" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"/>
                             </StackPanel>
                             <TextBlock VerticalAlignment="Top" Grid.Column="0" Grid.Row="1" Margin="5, 5, 5, 5" MaxHeight="20" HorizontalAlignment="Left" MaxWidth="120" Foreground="#DCE0E4" TextAlignment="Left" Text="Для 1 поля: "
              FontSize="15" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"></TextBlock>
