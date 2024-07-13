@@ -18,7 +18,6 @@ namespace FiltersApplication.ViewModel
 {
 	class CalculateVM : ViewModelBase
 	{
-		private CalculatingProcess _result;
 		private string patternBrandFilter = @"[а-яА-Я\d]";
 		private string patternBrandFuel = @"[а-яА-Я]";
 		private string patternStation = @"[\d]";
@@ -26,15 +25,6 @@ namespace FiltersApplication.ViewModel
 		private Filter _selectedFilter;
 		private Station _currentPropertyStation;
 		private ObservableCollection<Fuel> _selectedFuels;
-		public CalculatingProcess Result
-		{
-			get { return _result; }
-			set
-			{
-				_result = value;
-				OnPropertyChanged("Result");
-			}
-		}
 		public Filter SelectFilter
 		{
 			get { return _selectedFilter; }
@@ -65,7 +55,7 @@ namespace FiltersApplication.ViewModel
 		public bool Execute;
 
 		private ICommand _calculateCommand;
-		public Dictionary<string, CalculatingProcess> Results;
+		public Dictionary<string, CalculatingProcess> Results { get; set; }
 		//public ObservableCollection<CalculatingProcess> Results { get; set; }
 		public CalculateVM()
 		{
@@ -82,10 +72,7 @@ namespace FiltersApplication.ViewModel
 
 		public bool Initialize(object obj)
 		{
-			Result = new CalculatingProcess();
 			Results = new Dictionary<string, CalculatingProcess>();
-			Result.AshConcentrationEntranceMthField = new List<double>();
-			Result.OptimalAshShakingMode = new List<double>();
 			try
 			{
 				SelectFilter = (Regex.IsMatch(GlobalSingletonFilterModel.Instance.SelectedFilter.BrandFilter.ToString(), patternBrandFilter)) ?
@@ -109,93 +96,94 @@ namespace FiltersApplication.ViewModel
 		public void CaclulateButton_Click(object obj)
 		{
 			Results.Clear();
-				foreach (Fuel fuel in SelectFuels)
-				{
-					 Results.Add(fuel.BrandFuel, MainProgram(fuel, CurrentPropertyStation, SelectFilter));
-				}
-		}
 
-		private CalculatingProcess MainProgram(Fuel fuel, Station CurrentPropertyStation, Filter SelectedFilter)
-		{
-			CVolumetricGasConsumption(fuel, CurrentPropertyStation);
-				CFlueGasVelocity(SelectedFilter, CurrentPropertyStation);
-				CEffectiveStrength(fuel);
-				CTrateDriftAshParticles(fuel);
-				CHeightCoefficientElectrode(SelectedFilter);
-				CCoeffSecondaryEntrainmentTrappedAsh(SelectedFilter);
-				CParameterAshCollectionUNIFORMVelocityField(SelectedFilter);
-				CAshEmissionUniformVelocityField();
-				CDegreeAshCaptureUNIFORMVelocityField();
-				CCoeffRelativeIncreaseInfluenceUnevenness();
-				CRelativeHeightLiftShaft(CurrentPropertyStation, SelectedFilter);
-				CPassageAshTakingAccountUNEVENNESSFieldVelocity(CurrentPropertyStation, SelectedFilter);
-				CPassageAshTakingAccountGasLeaksZones(CurrentPropertyStation, SelectedFilter);
-				CDegreeAshCapture(fuel);
+			foreach (var fuel in SelectFuels)
+			{
+				var result = new CalculatingProcess();
+				result.AshConcentrationEntranceMthField = new List<double>();
+				result.OptimalAshShakingMode = new List<double>();
+
+				CVolumetricGasConsumption(fuel, CurrentPropertyStation, result);
+				CFlueGasVelocity(SelectFilter, CurrentPropertyStation, result);
+				CEffectiveStrength(fuel, result);
+				CTrateDriftAshParticles(fuel, result);
+				CHeightCoefficientElectrode(SelectFilter, result);
+				CCoeffSecondaryEntrainmentTrappedAsh(SelectFilter, result);
+				CParameterAshCollectionUNIFORMVelocityField(SelectFilter, result);
+				CAshEmissionUniformVelocityField(result);
+				CDegreeAshCaptureUNIFORMVelocityField(result);
+				CCoeffRelativeIncreaseInfluenceUnevenness(result);
+				CRelativeHeightLiftShaft(CurrentPropertyStation, SelectFilter, result);
+				CPassageAshTakingAccountUNEVENNESSFieldVelocity(CurrentPropertyStation, SelectFilter, result);
+				CPassageAshTakingAccountGasLeaksZones(CurrentPropertyStation, SelectFilter, result);
+				CDegreeAshCapture(fuel, result);
+
 				if (continueCalc)
 				{
-					CAmountAshFormedProductsMechanicalUnderburning(CurrentPropertyStation, fuel);
-					CAshConcentrationEntranceToFirstField();
-					CPassageAshFirstField(SelectedFilter);
-					CDegreeAshCaptureFirstField();
-					COptimalValueDustCapacity(fuel);
-					CAreaDepositionOneField(SelectedFilter);
-					CNumberGasesEnteringOneField(CurrentPropertyStation);
-					CAshConcentrationEntranceMthField(SelectedFilter);
-					COptimalAshShakingMode();
+					CAmountAshFormedProductsMechanicalUnderburning(CurrentPropertyStation, fuel, result);
+					CAshConcentrationEntranceToFirstField(result);
+					CPassageAshFirstField(SelectFilter, result);
+					CDegreeAshCaptureFirstField(result);
+					COptimalValueDustCapacity(fuel, result);
+					CAreaDepositionOneField(SelectFilter, result);
+					CNumberGasesEnteringOneField(CurrentPropertyStation, result);
+					CAshConcentrationEntranceMthField(SelectFilter, result);
+					COptimalAshShakingMode(result);
 				}
-				
-			return Result;
+
+				Results.Add(fuel.BrandFuel, result);
+			}
 		}
 
-		private void CVolumetricGasConsumption(Fuel SelectedFuel, Station CurrentPropertyStation)
+		private void CVolumetricGasConsumption(Fuel SelectedFuel, Station CurrentPropertyStation, CalculatingProcess Result)
 		{
 			Result.VolumetricGasConsumption = CurrentPropertyStation.FuelConsumption * (SelectedFuel.TheoreticalVolumeGas + 1.016 * (CurrentPropertyStation.AirSuction - 1) *
 					SelectedFuel.TheoreticalAirVolume) * (273 + CurrentPropertyStation.ExhaustGasTemperature) / 273;
 		}
-		private void CFlueGasVelocity(Filter SelectedFilter, Station CurrentPropertyStation)
+		private void CFlueGasVelocity(Filter SelectedFilter, Station CurrentPropertyStation, CalculatingProcess Result)
 		{
 			Result.FlueGasVelocity = Result.VolumetricGasConsumption / (CurrentPropertyStation.NumberSmokePumps * SelectedFilter.AreaActiveSection);
 		}
-		private void CEffectiveStrength(Fuel SelectedFuel)
+		private void CEffectiveStrength(Fuel SelectedFuel, CalculatingProcess Result)
 		{
 			Result.EffectiveStrength = SelectedFuel.CoefficientReverseCrown * SelectedFuel.ElectricFieldStrength;
 		}
-		private void CTrateDriftAshParticles(Fuel SelectedFuel)
+		private void CTrateDriftAshParticles(Fuel SelectedFuel, CalculatingProcess Result)
 		{
 			Result.TrateDriftAshParticles = 0.25 * Math.Pow(Result.EffectiveStrength, 2)  * SelectedFuel.MedianDiameterAsh;
 		}
-		private void CHeightCoefficientElectrode(Filter SelectedFilter)
+		private void CHeightCoefficientElectrode(Filter SelectedFilter, CalculatingProcess Result)
 		{
 			Result.HeightCoefficientElectrode = 7.5 / SelectedFilter.ElectrodeHeight;
 		}
-		private void CCoeffSecondaryEntrainmentTrappedAsh(Filter SelectedFilter)
+		private void CCoeffSecondaryEntrainmentTrappedAsh(Filter SelectedFilter, CalculatingProcess Result)
 		{
 			Result.CoeffSecondaryEntrainmentTrappedAsh = Result.HeightCoefficientElectrode * App.СoefficientElectrodeType * SelectedFilter.СoefficientShakingMode * 
 				(1 - 0.25 * (Result.FlueGasVelocity - 1));
 		}
-		private void CParameterAshCollectionUNIFORMVelocityField(Filter SelectedFilter)
+		private void CParameterAshCollectionUNIFORMVelocityField(Filter SelectedFilter, CalculatingProcess Result)
 		{
 			Result.ParameterAshCollectionUNIFORMVelocityField = 0.2 * Result.CoeffSecondaryEntrainmentTrappedAsh *
 				Math.Sqrt(Result.TrateDriftAshParticles / Result.FlueGasVelocity) * SelectedFilter.NumberFields * 
 				SelectedFilter.ActiveFieldLength / SelectedFilter.DistanceCPDevices;
 		}
-		private void CAshEmissionUniformVelocityField()
+		private void CAshEmissionUniformVelocityField(CalculatingProcess Result)
 		{
 			Result.AshEmissionUniformVelocityField = Math.Exp(-Result.ParameterAshCollectionUNIFORMVelocityField);
 		}
-		private void CDegreeAshCaptureUNIFORMVelocityField()
+		private void CDegreeAshCaptureUNIFORMVelocityField(CalculatingProcess Result)
 		{
 			Result.DegreeAshCaptureUNIFORMVelocityField = 1 - Result.AshEmissionUniformVelocityField;
 		}
-		private void CCoeffRelativeIncreaseInfluenceUnevenness()
+		private void CCoeffRelativeIncreaseInfluenceUnevenness(CalculatingProcess Result)
 		{
 			Result.CoeffRelativeIncreaseInfluenceUnevenness = 0.125 * (1 + Result.ParameterAshCollectionUNIFORMVelocityField ) * Result.ParameterAshCollectionUNIFORMVelocityField;
 		}
-		private void CRelativeHeightLiftShaft(Station CurrentPropertyStation, Filter SelectedFilter)
+		private void CRelativeHeightLiftShaft(Station CurrentPropertyStation, Filter SelectedFilter, CalculatingProcess Result)
 		{
 			double[] ListValue = { 0, 0.4, 0.8 };
-			Result.RelativeHeightLiftingShaft = CurrentPropertyStation.HeightLiftShaft / SelectedFilter.ElectrodeHeight;
-			Result.RelativeHeightLiftingShaft = FindClosestValue(Result.RelativeHeightLiftingShaft, ListValue);
+			var res = CurrentPropertyStation.HeightLiftShaft / SelectedFilter.ElectrodeHeight;
+			Result.RelativeHeightLiftingShaft = FindClosestValue(res, ListValue);
 		}
 		static double FindClosestValue(double target, double[] values)
 		{
@@ -213,7 +201,7 @@ namespace FiltersApplication.ViewModel
 			}
 			return closest;
 		}
-		private void CPassageAshTakingAccountUNEVENNESSFieldVelocity(Station CurrentPropertyStation, Filter SelectedFilter)
+		private void CPassageAshTakingAccountUNEVENNESSFieldVelocity(Station CurrentPropertyStation, Filter SelectedFilter, CalculatingProcess Result)
 		{
 			Result.SquareVelocityDeviationAverageValue = (CurrentPropertyStation.TypeFlueGasSupply == "Подвод дымовых газов снизу" ) ?
 				App.SquareVelocityDeviationAverageValueSupplyBelow[CurrentPropertyStation.NumberGrids][SelectedFilter.NumberFields][Result.RelativeHeightLiftingShaft] :
@@ -221,14 +209,14 @@ namespace FiltersApplication.ViewModel
 			Result.PassageAshTakingAccountUNEVENNESSFieldVelocity = (1 + Result.CoeffRelativeIncreaseInfluenceUnevenness * 
 				Math.Pow(Result.SquareVelocityDeviationAverageValue, 2)) * Result.AshEmissionUniformVelocityField;
 		}
-		private void CPassageAshTakingAccountGasLeaksZones(Station CurrentPropertyStation, Filter SelectedFilter)
+		private void CPassageAshTakingAccountGasLeaksZones(Station CurrentPropertyStation, Filter SelectedFilter, CalculatingProcess Result)
 		{
 			Result.PassageAshInactiveZones = App.PassageAshInactiveZones[SelectedFilter.NumberFields][CurrentPropertyStation.SchemeBunkerPartitions];
 			Result.PassageAshTakingAccountGasLeaksZones = (1 - Result.PassageAshInactiveZones - App.PassageAshSemiActiveZones) *
 				Result.PassageAshTakingAccountUNEVENNESSFieldVelocity + App.PassageAshSemiActiveZones * Result.PassageAshTakingAccountUNEVENNESSFieldVelocity *
 				App.СoeffIncreasePassageWeakenedElectricField + Result.PassageAshInactiveZones;
 		}
-		private void CDegreeAshCapture(Fuel SelectedFuel)
+		private void CDegreeAshCapture(Fuel SelectedFuel, CalculatingProcess Result)
 		{
 			Result.DegreeAshCapture = 1 - Result.PassageAshTakingAccountGasLeaksZones;
 			if (Result.DegreeAshCapture < 0.99)
@@ -246,47 +234,46 @@ namespace FiltersApplication.ViewModel
 				}
 			}
 			continueCalc = true;
-			return;
 		}
-		private void CAmountAshFormedProductsMechanicalUnderburning(Station CurrentPropertyStation, Fuel SelectedFuel)
+		private void CAmountAshFormedProductsMechanicalUnderburning(Station CurrentPropertyStation, Fuel SelectedFuel, CalculatingProcess Result)
 		{
 			Result.AmountAshFormedProductsMechanicalUnderburning = 10 * CurrentPropertyStation.FuelConsumption *
 				(App.ProportionCarriedAshDuringSlagRemoval[CurrentPropertyStation.SlagRemoval] * SelectedFuel.AshContent + 
 				App.MechanicalUnderburningFuel * SelectedFuel.LowerHeatCombustion / 32.68);
 		}
-		private void CAshConcentrationEntranceToFirstField()
+		private void CAshConcentrationEntranceToFirstField(CalculatingProcess Result)
 		{
 			Result.AshConcentrationEntranceToFirstField = Result.AmountAshFormedProductsMechanicalUnderburning / Result.VolumetricGasConsumption;
 		}
-		private void CPassageAshFirstField(Filter SelectedFilter)
+		private void CPassageAshFirstField(Filter SelectedFilter, CalculatingProcess Result)
 		{
 			double deg = 1 / SelectedFilter.NumberFields;
 			Result.PassageAshFirstField = Math.Pow(Result.PassageAshTakingAccountGasLeaksZones, 1.0 / SelectedFilter.NumberFields);
 		}
-		private void CDegreeAshCaptureFirstField()
+		private void CDegreeAshCaptureFirstField(CalculatingProcess Result)
 		{
 			Result.DegreeAshCaptureFirstField = 1 - Result.PassageAshFirstField;
 		}
-		private void COptimalValueDustCapacity(Fuel SelectedFuel)
+		private void COptimalValueDustCapacity(Fuel SelectedFuel, CalculatingProcess Result)
 		{
 			Result.OptimalValueDustCapacity = 3.14 - 0.25 * SelectedFuel.ElectricalResistanceAsh;
 		}
-		private void CAreaDepositionOneField(Filter SelectedFilter)
+		private void CAreaDepositionOneField(Filter SelectedFilter, CalculatingProcess Result)
 		{
 			Result.AreaDepositionOneField = SelectedFilter.TotalDepositionArea / SelectedFilter.NumberFields;
 		}
-		private void CNumberGasesEnteringOneField(Station CurrentPropertyStation)
+		private void CNumberGasesEnteringOneField(Station CurrentPropertyStation, CalculatingProcess Result)
 		{
 			Result.NumberGasesEnteringOneField = Result.VolumetricGasConsumption / CurrentPropertyStation.NumberSmokePumps;
 		}
-		private void CAshConcentrationEntranceMthField(Filter SelectedFilter)
+		private void CAshConcentrationEntranceMthField(Filter SelectedFilter, CalculatingProcess Result)
 		{
 			for (int i = 1; i <= SelectedFilter.NumberFields; i++)
 			{
 				Result.AshConcentrationEntranceMthField.Add(Result.AshConcentrationEntranceToFirstField * Math.Pow(Result.PassageAshFirstField, i - 1));
 			}
 		}
-		private void COptimalAshShakingMode()
+		private void COptimalAshShakingMode(CalculatingProcess Result)
 		{
 			foreach (double AshConcentration in Result.AshConcentrationEntranceMthField)
 			{

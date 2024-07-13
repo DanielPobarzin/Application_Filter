@@ -222,7 +222,7 @@ namespace FiltersApplication.Model
 					if (Regex.IsMatch(value, pattern))
 					{
 
-						brandFuel = value.ToUpper();
+						brandFuel = value;
 						OnPropertyChanged("BrandFuel");
 					}
 					else

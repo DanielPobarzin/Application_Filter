@@ -55,7 +55,9 @@ namespace FiltersApplication.View
 
 				case (30): 
 					LoadText.Text = "Обработка".ToString(); 
-					GridAshClean.Children.Clear(); 
+					GridAshClean.Children.Clear();
+					Start_Btn.Command = viewModel.CalculateCommand;
+					viewModel.CaclulateButton_Click(sender);
 					break;
 
 				case (80): 
@@ -64,13 +66,14 @@ namespace FiltersApplication.View
 
 				case (99):
 					StopTimer();
+				
 					InitializationAreaResults();
 					TimerLabel.Text = "✔".ToString(); 
 					LoadText.Text = "".ToString();
 					break;
 			}
 
-			if (TimerLabel.Text == "✔")
+			if (TimerLabel.Text == "✔" && BorderSuccess.ActualHeight != BorderSuccess.MaxHeight)
 			{
 
 				Start_Btn.IsChecked = false;
@@ -86,7 +89,7 @@ namespace FiltersApplication.View
 				storyboard.Children.Add(animation);
 				storyboard.Begin();
 			}
-			else
+			if (TimerLabel.Text != "✔" && BorderSuccess.ActualHeight != BorderSuccess.MinHeight)
 			{
 				DoubleAnimation animation = new DoubleAnimation();
 				animation.Duration = TimeSpan.FromSeconds(0.3);
@@ -124,9 +127,9 @@ namespace FiltersApplication.View
 						TextBox thirdFieldThreeTextBox = (TextBox)contentTemplatePresenter.ContentTemplate.FindName("ThirdField", contentTemplatePresenter);
 
 						fuel.Text = SelectFuels[i].BrandFuel.ToString();
-						firstFieldThreeTextBox.Text = viewModel.Results[SelectFuels[i].BrandFuel].AshConcentrationEntranceMthField[0].ToString();
-						secondFieldThreeTextBox.Text = viewModel.Results[SelectFuels[i].BrandFuel].AshConcentrationEntranceMthField[1].ToString();
-						thirdFieldThreeTextBox.Text = viewModel.Results[SelectFuels[i].BrandFuel].AshConcentrationEntranceMthField[2].ToString();
+						firstFieldThreeTextBox.Text = viewModel.Results[SelectFuels[i].BrandFuel].AshConcentrationEntranceMthField[0].ToString("F4").Replace(",", ".");
+						secondFieldThreeTextBox.Text = viewModel.Results[SelectFuels[i].BrandFuel].AshConcentrationEntranceMthField[1].ToString("F4").Replace(",", ".");
+						thirdFieldThreeTextBox.Text = viewModel.Results[SelectFuels[i].BrandFuel].AshConcentrationEntranceMthField[2].ToString("F4").Replace(",", ".");
 						break;
 
 					case 4:
@@ -142,10 +145,10 @@ namespace FiltersApplication.View
 						TextBox fourFieldFourTextBox = (TextBox)contentTemplatePresenter.ContentTemplate.FindName("FourField", contentTemplatePresenter);
 
 						fuelfour.Text = SelectFuels[i].BrandFuel.ToString();
-						firstFieldFourTextBox.Text = viewModel.Results[SelectFuels[i].BrandFuel].AshConcentrationEntranceMthField[0].ToString();
-						secondFieldFourTextBox.Text = viewModel.Results[SelectFuels[i].BrandFuel].AshConcentrationEntranceMthField[1].ToString();
-						thirdFieldFourTextBox.Text = viewModel.Results[SelectFuels[i].BrandFuel].AshConcentrationEntranceMthField[2].ToString();
-						fourFieldFourTextBox.Text = viewModel.Results[SelectFuels[i].BrandFuel].AshConcentrationEntranceMthField[3].ToString();
+						firstFieldFourTextBox.Text = viewModel.Results[SelectFuels[i].BrandFuel].AshConcentrationEntranceMthField[0].ToString("F4").Replace(",", ".");
+						secondFieldFourTextBox.Text = viewModel.Results[SelectFuels[i].BrandFuel].AshConcentrationEntranceMthField[1].ToString("F4").Replace(",", ".");
+						thirdFieldFourTextBox.Text = viewModel.Results[SelectFuels[i].BrandFuel].AshConcentrationEntranceMthField[2].ToString("F4").Replace(",", ".");
+						fourFieldFourTextBox.Text = viewModel.Results[SelectFuels[i].BrandFuel].AshConcentrationEntranceMthField[3].ToString("F4").Replace(",", ".");
 						break;
 				}
 
@@ -186,7 +189,6 @@ namespace FiltersApplication.View
 				if (viewModel.Initialize(sender))
 				{
 					StartTimer();
-					Start_Btn.Command = viewModel.CalculateCommand;
 					Start_Btn.IsChecked = true;	
 				}
 				else
