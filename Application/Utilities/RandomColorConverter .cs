@@ -15,9 +15,9 @@ namespace FiltersApplication.Utilities
 
 		public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
 		{
-			byte red = (byte)random.Next(150, 256); 
-			byte green = (byte)random.Next(150, 256); 
-			byte blue = (byte)random.Next(150, 256);
+			byte red = (byte)random.Next(180, 256); 
+			byte green = (byte)random.Next(180, 256); 
+			byte blue = (byte)random.Next(180, 256);
 			return new SolidColorBrush(Color.FromRgb(red, green, blue));
 		}
 

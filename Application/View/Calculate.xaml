@@ -16,67 +16,103 @@
                 <style:RandomColorConverter x:Key="RandomColorConverter"/>
             </DataTemplate.Resources>
             <Grid>
-                <Border Margin="10 40 10 10" BorderBrush="{Binding RelativeSource={RelativeSource Self}, Converter={StaticResource RandomColorConverter}}" BorderThickness="3" CornerRadius="20">
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="Auto" />
-                            <RowDefinition Height="Auto" />
-                            <RowDefinition Height="Auto" />
-                            <RowDefinition Height="Auto" />
-                            <RowDefinition Height="Auto" />
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto" />
-                            <ColumnDefinition Width="Auto"/>
-                        </Grid.ColumnDefinitions>
-                        <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" Margin="10" VerticalAlignment="Top"  HorizontalAlignment="Stretch">
-                            <TextBlock TextAlignment="Left" HorizontalAlignment="Left" Foreground="#DCE0E4" Text="Топливо: " FontSize="18" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"/>
-                            <TextBlock Name="Fuel"  TextAlignment="Left" HorizontalAlignment="Left" Foreground="#DCE0E4" FontSize="18" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"/>
-                        </StackPanel>
-                        <TextBlock VerticalAlignment="Top" Grid.Column="0" Grid.Row="1" Margin="5, 5, 5, 5" MaxHeight="20" HorizontalAlignment="Left" MaxWidth="120" Foreground="#DCE0E4" TextAlignment="Left" Text="Для 1 поля: "
-             FontSize="15" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"></TextBlock>
-                        <TextBox Name="FirstField" Margin="10, 10, 10, 10" IsReadOnly="true" Grid.Column="1" Grid.Row="1"  MinWidth="120" MaxHeight="20" MaxWidth="200" TextAlignment="Left" FontSize="15" Foreground="Gray" FontFamily="Fonts/#Raleway SemiBold"></TextBox>
-                        <TextBlock VerticalAlignment="Top" Grid.Column="0" Grid.Row="2" Margin="5, 5, 5, 5" MaxHeight="20" HorizontalAlignment="Left" MaxWidth="120" Foreground="#DCE0E4" TextAlignment="Left" Text="Для 2 поля: "
-            FontSize="15" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"></TextBlock>
-                        <TextBox Name="SecondField" Margin="10, 10, 10, 10" IsReadOnly="true" Grid.Column="1" Grid.Row="2"  MinWidth="120" MaxHeight="20" MaxWidth="200" TextAlignment="Left" FontSize="15" Foreground="Gray" FontFamily="Fonts/#Raleway SemiBold"></TextBox>
-                        <TextBlock VerticalAlignment="Top" Grid.Column="0" Grid.Row="3" Margin="5, 5, 5, 5" MaxHeight="20" HorizontalAlignment="Left" MaxWidth="120" Foreground="#DCE0E4" TextAlignment="Left" Text="Для 3 поля: "
-            FontSize="15" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"></TextBlock>
-                        <TextBox Name="ThirdField" Margin="10, 10, 10, 10" IsReadOnly="true" Grid.Column="1" Grid.Row="3"  MinWidth="120" MaxHeight="20" MaxWidth="200" TextAlignment="Left" FontSize="15" Foreground="Gray" FontFamily="Fonts/#Raleway SemiBold"></TextBox>
-                        <TextBlock VerticalAlignment="Top" Grid.Column="0" Grid.Row="4" Margin="5, 5, 5, 5" MaxHeight="20" HorizontalAlignment="Left" MaxWidth="120" Foreground="#DCE0E4" TextAlignment="Left" Text="Для 4 поля: "
-            FontSize="15" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"></TextBlock>
-                        <TextBox Name="FourField" Margin="10, 10, 10, 10" IsReadOnly="true" Grid.Column="1" Grid.Row="4"  MinWidth="120" MaxHeight="20" MaxWidth="200" TextAlignment="Left" FontSize="15" Foreground="Gray" FontFamily="Fonts/#Raleway SemiBold"></TextBox>
-                    </Grid>
+                <Border x:Name="ExternalBorder" Margin="10 10 10 10" BorderBrush="{Binding RelativeSource={RelativeSource Self}, Converter={StaticResource RandomColorConverter}}" BorderThickness="4" CornerRadius="20">
+                    <Border Background="#3A4149" Margin="3 3 3 3" CornerRadius="20">
+                        <Grid>
+                             <Grid.RowDefinitions>
+                                 <RowDefinition Height="Auto" />
+                                 <RowDefinition Height="Auto" />
+                                 <RowDefinition Height="Auto" />
+                                 <RowDefinition Height="Auto" />
+                                 <RowDefinition Height="Auto" />
+                                 <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                 <ColumnDefinition Width="1*" />
+                                 <ColumnDefinition Width="1*"/>
+                            </Grid.ColumnDefinitions>
+                             <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" Margin="10" VerticalAlignment="Top"  HorizontalAlignment="Stretch">
+                                <TextBlock TextAlignment="Left" HorizontalAlignment="Left" Foreground="#DCE0E4" Text="Топливо: " FontSize="18" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"/>
+                                <TextBlock Name="Fuel" TextAlignment="Left" HorizontalAlignment="Left" Foreground="#DCE0E4" FontSize="18" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"/>
+                            </StackPanel>
+                            <Border x:Name="InternalBorder" VerticalAlignment="Bottom" HorizontalAlignment="Stretch" Height="5" CornerRadius="2" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="5 0 5 0">
+                                <Border.Background>
+                                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                                        <GradientStop Offset="0"/>
+                                        <GradientStop Color="#3A4149" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Border.Background>
+                            </Border>
+                            <TextBlock VerticalAlignment="Top" Grid.Column="0" Grid.Row="2" Margin="5, 5, 5, 5" MaxHeight="20" HorizontalAlignment="Left" MaxWidth="120" Foreground="#DCE0E4" TextAlignment="Left" Text="Для 1 поля: "
+                             FontSize="15" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"></TextBlock>
+                             <TextBox Name="FirstField" Margin="10, 10, 10, 10" IsReadOnly="true" Grid.Column="1" Grid.Row="2"  MinWidth="120" MaxHeight="20" MaxWidth="200" TextAlignment="Left" FontSize="15" Foreground="Gray" FontFamily="Fonts/#Raleway SemiBold"></TextBox>
+                             <TextBlock VerticalAlignment="Top" Grid.Column="0" Grid.Row="3" Margin="5, 5, 5, 5" MaxHeight="20" HorizontalAlignment="Left" MaxWidth="120" Foreground="#DCE0E4" TextAlignment="Left" Text="Для 2 поля: "
+                             FontSize="15" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"></TextBlock>
+                             <TextBox Name="SecondField" Margin="10, 10, 10, 10" IsReadOnly="true" Grid.Column="1" Grid.Row="3"  MinWidth="120" MaxHeight="20" MaxWidth="200" TextAlignment="Left" FontSize="15" Foreground="Gray" FontFamily="Fonts/#Raleway SemiBold"></TextBox>
+                             <TextBlock VerticalAlignment="Top" Grid.Column="0" Grid.Row="4" Margin="5, 5, 5, 5" MaxHeight="20" HorizontalAlignment="Left" MaxWidth="120" Foreground="#DCE0E4" TextAlignment="Left" Text="Для 3 поля: "
+                             FontSize="15" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"></TextBlock>
+                             <TextBox Name="ThirdField" Margin="10, 10, 10, 10" IsReadOnly="true" Grid.Column="1" Grid.Row="4"  MinWidth="120" MaxHeight="20" MaxWidth="200" TextAlignment="Left" FontSize="15" Foreground="Gray" FontFamily="Fonts/#Raleway SemiBold"></TextBox>
+                             <TextBlock VerticalAlignment="Top" Grid.Column="0" Grid.Row="5" Margin="5, 5, 5, 5" MaxHeight="20" HorizontalAlignment="Left" MaxWidth="120" Foreground="#DCE0E4" TextAlignment="Left" Text="Для 4 поля: "
+                             FontSize="15" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"></TextBlock>
+                             <TextBox Name="FourField" Margin="10, 10, 10, 10" IsReadOnly="true" Grid.Column="1" Grid.Row="5"  MinWidth="120" MaxHeight="20" MaxWidth="200" TextAlignment="Left" FontSize="15" Foreground="Gray" FontFamily="Fonts/#Raleway SemiBold"></TextBox>
+                        </Grid>
+                    </Border>
+                    <Border.Effect>
+                        <DropShadowEffect Color="{Binding RelativeSource={RelativeSource AncestorType=Border}, Path=BorderBrush.Color}"
+                          ShadowDepth="0"
+                          BlurRadius="20"
+                          Opacity="0.5"/>
+                    </Border.Effect>
                 </Border>
             </Grid>
         </DataTemplate>
         <DataTemplate x:Key="AshCleanForThreeFieldFilter">
-            <Border Margin="10 40 10 10" BorderBrush="Gray" BorderThickness="3" CornerRadius="20">
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto" />
-                        <RowDefinition Height="Auto" />
-                        <RowDefinition Height="Auto" />
-                        <RowDefinition Height="Auto" />
-                        <RowDefinition Height="Auto" />
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto" />
-                        <ColumnDefinition Width="Auto"/>
-                    </Grid.ColumnDefinitions>
-                    <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" Margin="10" VerticalAlignment="Top"  HorizontalAlignment="Stretch">
-                        <TextBlock TextAlignment="Left" HorizontalAlignment="Left" Foreground="#DCE0E4" Text="Топливо: " FontSize="18" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"/>
-                        <TextBlock TextAlignment="Left" HorizontalAlignment="Left" Foreground="#DCE0E4" Text="" FontSize="18" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"/>
-                    </StackPanel>
-                    <TextBlock VerticalAlignment="Top" Grid.Column="0" Grid.Row="1" Margin="5, 5, 5, 5" MaxHeight="20" HorizontalAlignment="Left" MaxWidth="120" Foreground="#DCE0E4" TextAlignment="Left" Text="Для 1 поля: "
-       FontSize="15" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"></TextBlock>
-                    <TextBox Name="FirstField" Margin="10, 10, 10, 10" IsReadOnly="true" Grid.Column="1" Grid.Row="1"  MinWidth="120" MaxHeight="20" MaxWidth="200" TextAlignment="Left" FontSize="15" Foreground="Gray" FontFamily="Fonts/#Raleway SemiBold"></TextBox>
-                    <TextBlock VerticalAlignment="Top" Grid.Column="0" Grid.Row="2" Margin="5, 5, 5, 5" MaxHeight="20" HorizontalAlignment="Left" MaxWidth="120" Foreground="#DCE0E4" TextAlignment="Left" Text="Для 2 поля: "
-      FontSize="15" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"></TextBlock>
-                    <TextBox Name="SecondField" Margin="10, 10, 10, 10" IsReadOnly="true" Grid.Column="1" Grid.Row="2"  MinWidth="120" MaxHeight="20" MaxWidth="200" TextAlignment="Left" FontSize="15" Foreground="Gray" FontFamily="Fonts/#Raleway SemiBold"></TextBox>
-                    <TextBlock VerticalAlignment="Top" Grid.Column="0" Grid.Row="3" Margin="5, 5, 5, 5" MaxHeight="20" HorizontalAlignment="Left" MaxWidth="120" Foreground="#DCE0E4" TextAlignment="Left" Text="Для 3 поля: "
-      FontSize="15" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"></TextBlock>
-                    <TextBox Name="ThirdField" Margin="10, 10, 10, 10" IsReadOnly="true" Grid.Column="1" Grid.Row="3"  MinWidth="120" MaxHeight="20" MaxWidth="200" TextAlignment="Left" FontSize="15" Foreground="Gray" FontFamily="Fonts/#Raleway SemiBold"></TextBox>
-                </Grid>
+            <DataTemplate.Resources>
+                <style:RandomColorConverter x:Key="RandomColorConverter"/>
+            </DataTemplate.Resources>
+            <Border  x:Name="ExternalBorder" Margin="10 10 10 10" BorderBrush="{Binding RelativeSource={RelativeSource Self}, Converter={StaticResource RandomColorConverter}}" BorderThickness="4" CornerRadius="20">
+                <Border Background="#3A4149" Margin="3 3 3 3" CornerRadius="20">
+                    <Grid>
+                       <Grid.RowDefinitions>
+                         <RowDefinition Height="Auto" />
+                         <RowDefinition Height="Auto" />
+                         <RowDefinition Height="Auto" />
+                         <RowDefinition Height="Auto" />
+                         <RowDefinition Height="Auto" />
+                       </Grid.RowDefinitions>
+                       <Grid.ColumnDefinitions>
+                         <ColumnDefinition Width="1*" />
+                         <ColumnDefinition Width="1*"/>
+                       </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" Margin="10" VerticalAlignment="Top"  HorizontalAlignment="Stretch">
+                             <TextBlock TextAlignment="Left" HorizontalAlignment="Left" Foreground="#DCE0E4" Text="Топливо: " FontSize="18" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"/>
+                             <TextBlock Name="Fuel" TextAlignment="Left" HorizontalAlignment="Left" Foreground="#DCE0E4" FontSize="18" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"/>
+                        </StackPanel>
+                        <Border x:Name="InternalBorder" VerticalAlignment="Bottom" HorizontalAlignment="Stretch" Height="5" CornerRadius="2" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="5 0 5 0">
+                            <Border.Background>
+                                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                                    <GradientStop Offset="0"/>
+                                    <GradientStop Color="#3A4149" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                        </Border>
+                        <TextBlock VerticalAlignment="Top" Grid.Column="0" Grid.Row="2" Margin="5, 5, 5, 5" MaxHeight="20" HorizontalAlignment="Left" MaxWidth="120" Foreground="#DCE0E4" TextAlignment="Left" Text="Для 1 поля: "
+                         FontSize="15" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"></TextBlock>
+                        <TextBox Name="FirstField" Margin="10, 10, 10, 10" IsReadOnly="true" Grid.Column="1" Grid.Row="2"  MinWidth="120" MaxHeight="20" MaxWidth="200" TextAlignment="Left" FontSize="15" Foreground="Gray" FontFamily="Fonts/#Raleway SemiBold"></TextBox>
+                        <TextBlock VerticalAlignment="Top" Grid.Column="0" Grid.Row="3" Margin="5, 5, 5, 5" MaxHeight="20" HorizontalAlignment="Left" MaxWidth="120" Foreground="#DCE0E4" TextAlignment="Left" Text="Для 2 поля: "
+                         FontSize="15" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"></TextBlock>
+                        <TextBox Name="SecondField" Margin="10, 10, 10, 10" IsReadOnly="true" Grid.Column="1" Grid.Row="3"  MinWidth="120" MaxHeight="20" MaxWidth="200" TextAlignment="Left" FontSize="15" Foreground="Gray" FontFamily="Fonts/#Raleway SemiBold"></TextBox>
+                        <TextBlock VerticalAlignment="Top" Grid.Column="0" Grid.Row="4" Margin="5, 5, 5, 5" MaxHeight="20" HorizontalAlignment="Left" MaxWidth="120" Foreground="#DCE0E4" TextAlignment="Left" Text="Для 3 поля: "
+                         FontSize="15" TextWrapping="Wrap" FontFamily="Fonts/#Raleway SemiBold"></TextBlock>
+                        <TextBox Name="ThirdField" Margin="10, 10, 10, 10" IsReadOnly="true" Grid.Column="1" Grid.Row="4"  MinWidth="120" MaxHeight="20" MaxWidth="200" TextAlignment="Left" FontSize="15" Foreground="Gray" FontFamily="Fonts/#Raleway SemiBold"></TextBox>
+                    </Grid>
+                </Border>
+                <Border.Effect>
+                    <DropShadowEffect Color="{Binding RelativeSource={RelativeSource AncestorType=Border}, Path=BorderBrush.Color}"
+                    ShadowDepth="0"
+                    BlurRadius="20"
+                    Opacity="0.5"/>
+                </Border.Effect>
             </Border>
         </DataTemplate>
     </UserControl.Resources>

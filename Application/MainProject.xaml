@@ -39,7 +39,7 @@
          BorderThickness="5"
          CornerRadius="20"/>
 
-        <Grid x:Name="BasGrid" Visibility="Collapsed">
+        <Grid x:Name="BasGrid" Visibility="Visible">
 
 
             <!--// Base Grid //-->
@@ -160,7 +160,7 @@
                     <!--// Подпись //-->
 
                 </StackPanel>
-                <TextBlock Name="Autograpf" Text="DONE BY POLINA LOZBICHEVA" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0 0 20 10" Foreground="Gray"  FontSize="8" FontFamily="Yu Gothic UI Semilight" />
+                <TextBlock Name="Autograpf" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="DONE BY POLINA LOZBICHEVA" Foreground="Gray" Margin="0 0 0 10"  FontSize="8" FontFamily="Yu Gothic UI Semilight" />
                 <Button Name="MenuClose" Visibility="Visible" Click="Size_Click_Min" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="10 10 20 10" Style="{StaticResource CloseMenuButton}"/>
                 <Button Name="MenuOpen"  Visibility="Collapsed" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="10 10 10 10" Click="Size_Click_Max" Style="{StaticResource HamburgerMenuButton}"/>
             </Grid>
@@ -184,3 +184,7 @@
     </Grid>
 
 </Window>
+    
+    
+    
+    

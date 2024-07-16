@@ -1,24 +1,11 @@
 ﻿using FiltersApplication.Model;
 using FiltersApplication.ViewModel;
-using SharpDX;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using System.Windows.Threading;
 
 namespace FiltersApplication.View
@@ -121,10 +108,21 @@ namespace FiltersApplication.View
 						Grid.SetRow(contentTemplatePresenter, i);
 						contentTemplatePresenter.ApplyTemplate();
 
+						Border ExternalBorder = (Border)contentTemplatePresenter.ContentTemplate.FindName("ExternalBorder", contentTemplatePresenter);
+						Border InternalBorder = (Border)contentTemplatePresenter.ContentTemplate.FindName("InternalBorder", contentTemplatePresenter);
 						TextBlock fuel = (TextBlock)contentTemplatePresenter.ContentTemplate.FindName("Fuel", contentTemplatePresenter);
 						TextBox firstFieldThreeTextBox = (TextBox)contentTemplatePresenter.ContentTemplate.FindName("FirstField", contentTemplatePresenter);
 						TextBox secondFieldThreeTextBox = (TextBox)contentTemplatePresenter.ContentTemplate.FindName("SecondField", contentTemplatePresenter);
 						TextBox thirdFieldThreeTextBox = (TextBox)contentTemplatePresenter.ContentTemplate.FindName("ThirdField", contentTemplatePresenter);
+
+						if (InternalBorder.Background is LinearGradientBrush linearGradientBrush)
+						{
+							var borderBrush = ExternalBorder.BorderBrush as SolidColorBrush;
+							LinearGradientBrush newLinearGradientBrush = new LinearGradientBrush();
+							newLinearGradientBrush.GradientStops.Add(new GradientStop(borderBrush.Color, 0));
+							newLinearGradientBrush.GradientStops.Add(new GradientStop(linearGradientBrush.GradientStops[1].Color, 1));
+							InternalBorder.Background = newLinearGradientBrush;
+						}
 
 						fuel.Text = SelectFuels[i].BrandFuel.ToString();
 						firstFieldThreeTextBox.Text = viewModel.Results[SelectFuels[i].BrandFuel].AshConcentrationEntranceMthField[0].ToString("F4").Replace(",", ".");
@@ -138,12 +136,22 @@ namespace FiltersApplication.View
 						Grid.SetRow(contentTemplatePresenter, i);
 						contentTemplatePresenter.ApplyTemplate();
 
+						Border ExternallBorder = (Border)contentTemplatePresenter.ContentTemplate.FindName("ExternalBorder", contentTemplatePresenter);
+						Border InternallBorder = (Border)contentTemplatePresenter.ContentTemplate.FindName("InternalBorder", contentTemplatePresenter);
 						TextBlock fuelfour = (TextBlock)contentTemplatePresenter.ContentTemplate.FindName("Fuel", contentTemplatePresenter);
 						TextBox firstFieldFourTextBox = (TextBox)contentTemplatePresenter.ContentTemplate.FindName("FirstField", contentTemplatePresenter);
 						TextBox secondFieldFourTextBox = (TextBox)contentTemplatePresenter.ContentTemplate.FindName("SecondField", contentTemplatePresenter);
 						TextBox thirdFieldFourTextBox = (TextBox)contentTemplatePresenter.ContentTemplate.FindName("ThirdField", contentTemplatePresenter);
 						TextBox fourFieldFourTextBox = (TextBox)contentTemplatePresenter.ContentTemplate.FindName("FourField", contentTemplatePresenter);
 
+						if (InternallBorder.Background is LinearGradientBrush llinearGradientBrush)
+						{
+							var borderBrush = ExternallBorder.BorderBrush as SolidColorBrush;
+							LinearGradientBrush newLinearGradientBrush = new LinearGradientBrush();
+							newLinearGradientBrush.GradientStops.Add(new GradientStop(borderBrush.Color, 0));
+							newLinearGradientBrush.GradientStops.Add(new GradientStop(llinearGradientBrush.GradientStops[1].Color, 1));
+							InternallBorder.Background = newLinearGradientBrush;
+						}
 						fuelfour.Text = SelectFuels[i].BrandFuel.ToString();
 						firstFieldFourTextBox.Text = viewModel.Results[SelectFuels[i].BrandFuel].AshConcentrationEntranceMthField[0].ToString("F4").Replace(",", ".");
 						secondFieldFourTextBox.Text = viewModel.Results[SelectFuels[i].BrandFuel].AshConcentrationEntranceMthField[1].ToString("F4").Replace(",", ".");
@@ -151,7 +159,6 @@ namespace FiltersApplication.View
 						fourFieldFourTextBox.Text = viewModel.Results[SelectFuels[i].BrandFuel].AshConcentrationEntranceMthField[3].ToString("F4").Replace(",", ".");
 						break;
 				}
-
 			}
 		}
 		private void StartTimer()

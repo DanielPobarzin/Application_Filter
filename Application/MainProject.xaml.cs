@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
+using System.Timers;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -17,18 +18,20 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
+using Telerik.Windows.Documents.Flow.Model;
 using Telerik.Windows.Documents.Spreadsheet.Expressions.Functions;
 
 namespace FiltersApplication
 {
-    
-    public partial class MainProject : Window
+
+	public partial class MainProject : Window
 	{
+		private Random random = new Random();
 		DispatcherTimer timer = new DispatcherTimer();
 		public MainProject()
         {
             InitializeComponent();
-            loading.Source = new Uri(Environment.CurrentDirectory + @"\0001.gif");
+			loading.Source = new Uri(Environment.CurrentDirectory + @"\0001.gif");
             Loading();
 		}
 
@@ -105,6 +108,6 @@ namespace FiltersApplication
 			{
 				Size_Click_Max(MenuOpen, EventArgs.Empty);			
 			}
-		}		
+		}
 	}
 }
