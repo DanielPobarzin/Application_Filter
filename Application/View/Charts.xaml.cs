@@ -29,7 +29,17 @@ namespace FiltersApplication.View
         {
             InitializeComponent();
         }
-		
+		private void ChartTrackBallBehavior_TrackInfoUpdated(object sender, TrackBallInfoEventArgs e)
+		{
+			DataPointInfo closestDataPoint = e.Context.ClosestDataPoint;
+			if (closestDataPoint != null)
+			{
+				FinancialData data = closestDataPoint.DataPoint.DataItem as FinancialData;
+				this.volume.Text = data.Volume.ToString("##,#");
+				this.date.Text = data.Date.ToString("MMM dd, yyyy");
+				this.price.Text = data.Close.ToString("0,0.00");
+			}
+		}
 
 	}
 }

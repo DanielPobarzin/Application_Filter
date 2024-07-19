@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\All\\ApplicationFilter\\Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|c:\\all\\applicationfilter\\application\\view\\calculate.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:view\\calculate.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|c:\\all\\applicationfilter\\application\\data\\chartdata.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:data\\chartdata.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\ApplicationFilter\\Application\\viewmodel\\chartsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:viewmodel\\chartsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|c:\\all\\applicationfilter\\application\\view\\charts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:view\\charts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\ApplicationFilter\\Application\\view\\charts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:view\\charts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\ApplicationFilter\\Application\\utilities\\datasourceviewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:utilities\\datasourceviewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\ApplicationFilter\\Application\\filtersapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:filtersapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\ApplicationFilter\\Application\\utilities\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:utilities\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\ApplicationFilter\\Application\\viewmodel\\calculatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:viewmodel\\calculatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\ApplicationFilter\\Application\\view\\calculate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:view\\calculate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\ApplicationFilter\\Application\\mainproject.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -51,20 +71,12 @@
       "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:view\\filters.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\ApplicationFilter\\Application\\view\\charts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:view\\charts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\ApplicationFilter\\Application\\viewmodel\\stationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:viewmodel\\stationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\ApplicationFilter\\Application\\view\\stations.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:view\\stations.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\ApplicationFilter\\Application\\viewmodel\\chartsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:viewmodel\\chartsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\ApplicationFilter\\Application\\viewmodel\\fuelsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\ApplicationFilter\\Application\\view\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:view\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\ApplicationFilter\\Application\\filtersapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|solutionrelative:filtersapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74148FE5-0B49-4A67-9A5A-E2C838DE05BC}|FiltersApplication.csproj|C:\\All\\ApplicationFilter\\Application\\model\\singltonmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,18 +122,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Calculate.xaml",
-              "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\View\\Calculate.xaml",
-              "RelativeDocumentMoniker": "View\\Calculate.xaml",
-              "ToolTip": "C:\\All\\ApplicationFilter\\Application\\View\\Calculate.xaml",
-              "RelativeToolTip": "View\\Calculate.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-16T07:52:59.484Z",
+              "DocumentIndex": 1,
+              "Title": "ChartsVM.cs",
+              "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\ViewModel\\ChartsVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\ChartsVM.cs",
+              "ToolTip": "C:\\All\\ApplicationFilter\\Application\\ViewModel\\ChartsVM.cs",
+              "RelativeToolTip": "ViewModel\\ChartsVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T12:01:33.237Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -138,21 +147,71 @@
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Calculate.xaml.cs",
-              "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\View\\Calculate.xaml.cs",
-              "RelativeDocumentMoniker": "View\\Calculate.xaml.cs",
-              "ToolTip": "C:\\All\\ApplicationFilter\\Application\\View\\Calculate.xaml.cs",
-              "RelativeToolTip": "View\\Calculate.xaml.cs",
-              "ViewState": "AQIAANIAAAAAAAAAAAAwwEMBAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T10:22:33.572Z",
+              "Title": "chartdata.csv",
+              "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\data\\chartdata.csv",
+              "RelativeDocumentMoniker": "data\\chartdata.csv",
+              "ToolTip": "C:\\All\\ApplicationFilter\\Application\\data\\chartdata.csv",
+              "RelativeToolTip": "data\\chartdata.csv",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-07-19T11:14:54.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataSourceViewModelBase.cs",
+              "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\Utilities\\DataSourceViewModelBase.cs",
+              "RelativeDocumentMoniker": "Utilities\\DataSourceViewModelBase.cs",
+              "ToolTip": "C:\\All\\ApplicationFilter\\Application\\Utilities\\DataSourceViewModelBase.cs",
+              "RelativeToolTip": "Utilities\\DataSourceViewModelBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:36:40.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Home.xaml",
+              "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\View\\Home.xaml",
+              "RelativeDocumentMoniker": "View\\Home.xaml",
+              "ToolTip": "C:\\All\\ApplicationFilter\\Application\\View\\Home.xaml",
+              "RelativeToolTip": "View\\Home.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T15:23:35.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainProject.xaml",
+              "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\MainProject.xaml",
+              "RelativeDocumentMoniker": "MainProject.xaml",
+              "ToolTip": "C:\\All\\ApplicationFilter\\Application\\MainProject.xaml",
+              "RelativeToolTip": "MainProject.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-13T18:03:56.25Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "FiltersApplication.csproj",
+              "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\FiltersApplication.csproj",
+              "RelativeDocumentMoniker": "FiltersApplication.csproj",
+              "ToolTip": "C:\\All\\ApplicationFilter\\Application\\FiltersApplication.csproj",
+              "RelativeToolTip": "FiltersApplication.csproj",
+              "ViewState": "AQIAALMAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-10T12:18:06.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "RelayCommand.cs",
               "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\Utilities\\RelayCommand.cs",
               "RelativeDocumentMoniker": "Utilities\\RelayCommand.cs",
@@ -164,19 +223,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainProject.xaml",
-              "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\MainProject.xaml",
-              "RelativeDocumentMoniker": "MainProject.xaml",
-              "ToolTip": "C:\\All\\ApplicationFilter\\Application\\MainProject.xaml",
-              "RelativeToolTip": "MainProject.xaml",
+              "DocumentIndex": 2,
+              "Title": "Charts.xaml",
+              "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\View\\Charts.xaml",
+              "RelativeDocumentMoniker": "View\\Charts.xaml",
+              "ToolTip": "C:\\All\\ApplicationFilter\\Application\\View\\Charts.xaml",
+              "RelativeToolTip": "View\\Charts.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-13T18:03:56.25Z",
+              "WhenOpened": "2024-07-11T15:23:31.878Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 3,
+              "Title": "Charts.xaml.cs",
+              "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\View\\Charts.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Charts.xaml.cs",
+              "ToolTip": "C:\\All\\ApplicationFilter\\Application\\View\\Charts.xaml.cs",
+              "RelativeToolTip": "View\\Charts.xaml.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAnwCYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T06:04:03.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\Utilities\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "Utilities\\ViewModelBase.cs",
+              "ToolTip": "C:\\All\\ApplicationFilter\\Application\\Utilities\\ViewModelBase.cs",
+              "RelativeToolTip": "Utilities\\ViewModelBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:36:42.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -188,44 +271,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "StationVM.cs",
-              "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\ViewModel\\StationVM.cs",
-              "RelativeDocumentMoniker": "ViewModel\\StationVM.cs",
-              "ToolTip": "C:\\All\\ApplicationFilter\\Application\\ViewModel\\StationVM.cs",
-              "RelativeToolTip": "ViewModel\\StationVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T10:16:07.604Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "FuelsVM.cs",
-              "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\ViewModel\\FuelsVM.cs",
-              "RelativeDocumentMoniker": "ViewModel\\FuelsVM.cs",
-              "ToolTip": "C:\\All\\ApplicationFilter\\Application\\ViewModel\\FuelsVM.cs",
-              "RelativeToolTip": "ViewModel\\FuelsVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T20:31:05.741Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CalculateVM.cs",
-              "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\ViewModel\\CalculateVM.cs",
-              "RelativeDocumentMoniker": "ViewModel\\CalculateVM.cs",
-              "ToolTip": "C:\\All\\ApplicationFilter\\Application\\ViewModel\\CalculateVM.cs",
-              "RelativeToolTip": "ViewModel\\CalculateVM.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAQwBMAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T12:20:32.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "Stations.xaml",
+              "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\View\\Stations.xaml",
+              "RelativeDocumentMoniker": "View\\Stations.xaml",
+              "ToolTip": "C:\\All\\ApplicationFilter\\Application\\View\\Stations.xaml",
+              "RelativeToolTip": "View\\Stations.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-10T13:14:33.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Stations.xaml.cs",
               "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\View\\Stations.xaml.cs",
               "RelativeDocumentMoniker": "View\\Stations.xaml.cs",
@@ -237,41 +294,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Stations.xaml",
-              "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\View\\Stations.xaml",
-              "RelativeDocumentMoniker": "View\\Stations.xaml",
-              "ToolTip": "C:\\All\\ApplicationFilter\\Application\\View\\Stations.xaml",
-              "RelativeToolTip": "View\\Stations.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-10T13:14:33.185Z"
+              "DocumentIndex": 17,
+              "Title": "StationVM.cs",
+              "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\ViewModel\\StationVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\StationVM.cs",
+              "ToolTip": "C:\\All\\ApplicationFilter\\Application\\ViewModel\\StationVM.cs",
+              "RelativeToolTip": "ViewModel\\StationVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T10:16:07.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Home.xaml",
-              "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\View\\Home.xaml",
-              "RelativeDocumentMoniker": "View\\Home.xaml",
-              "ToolTip": "C:\\All\\ApplicationFilter\\Application\\View\\Home.xaml",
-              "RelativeToolTip": "View\\Home.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-11T15:23:35.138Z",
-              "EditorCaption": ""
+              "DocumentIndex": 19,
+              "Title": "FuelsVM.cs",
+              "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\ViewModel\\FuelsVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\FuelsVM.cs",
+              "ToolTip": "C:\\All\\ApplicationFilter\\Application\\ViewModel\\FuelsVM.cs",
+              "RelativeToolTip": "ViewModel\\FuelsVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T20:31:05.741Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Charts.xaml",
-              "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\View\\Charts.xaml",
-              "RelativeDocumentMoniker": "View\\Charts.xaml",
-              "ToolTip": "C:\\All\\ApplicationFilter\\Application\\View\\Charts.xaml",
-              "RelativeToolTip": "View\\Charts.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-11T15:23:31.878Z"
+              "DocumentIndex": 7,
+              "Title": "CalculateVM.cs",
+              "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\ViewModel\\CalculateVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\CalculateVM.cs",
+              "ToolTip": "C:\\All\\ApplicationFilter\\Application\\ViewModel\\CalculateVM.cs",
+              "RelativeToolTip": "ViewModel\\CalculateVM.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwBMAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:20:32.414Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "Filters.xaml",
               "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\View\\Filters.xaml",
               "RelativeDocumentMoniker": "View\\Filters.xaml",
@@ -282,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "HomeVM.cs",
               "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\ViewModel\\HomeVM.cs",
               "RelativeDocumentMoniker": "ViewModel\\HomeVM.cs",
@@ -294,19 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ChartsVM.cs",
-              "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\ViewModel\\ChartsVM.cs",
-              "RelativeDocumentMoniker": "ViewModel\\ChartsVM.cs",
-              "ToolTip": "C:\\All\\ApplicationFilter\\Application\\ViewModel\\ChartsVM.cs",
-              "RelativeToolTip": "ViewModel\\ChartsVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T12:01:33.237Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -318,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "FiltersVM.cs",
               "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\ViewModel\\FiltersVM.cs",
               "RelativeDocumentMoniker": "ViewModel\\FiltersVM.cs",
@@ -330,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Resources.Designer.cs",
               "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\Properties\\Resources.Designer.cs",
               "RelativeDocumentMoniker": "Properties\\Resources.Designer.cs",
@@ -342,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Resources.resx",
               "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "Properties\\Resources.resx",
@@ -353,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "NavigationVM.cs",
               "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\ViewModel\\NavigationVM.cs",
               "RelativeDocumentMoniker": "ViewModel\\NavigationVM.cs",
@@ -365,19 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "FiltersApplication.csproj",
-              "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\FiltersApplication.csproj",
-              "RelativeDocumentMoniker": "FiltersApplication.csproj",
-              "ToolTip": "C:\\All\\ApplicationFilter\\Application\\FiltersApplication.csproj",
-              "RelativeToolTip": "FiltersApplication.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-10T12:18:06.543Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Filters.xaml.cs",
               "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\View\\Filters.xaml.cs",
               "RelativeDocumentMoniker": "View\\Filters.xaml.cs",
@@ -389,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "PageModel.cs",
               "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\Model\\PageModel.cs",
               "RelativeDocumentMoniker": "Model\\PageModel.cs",
@@ -401,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Home.xaml.cs",
               "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\View\\Home.xaml.cs",
               "RelativeDocumentMoniker": "View\\Home.xaml.cs",
@@ -413,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\DbInitializer\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "DbInitializer\\ApplicationDbContext.cs",
@@ -425,7 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "SingltonModel.cs",
               "DocumentMoniker": "C:\\All\\ApplicationFilter\\Application\\Model\\SingltonModel.cs",
               "RelativeDocumentMoniker": "Model\\SingltonModel.cs",

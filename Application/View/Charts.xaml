@@ -5,17 +5,160 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
              xmlns:sys="clr-namespace:System;assembly=mscorlib"
-             xmlns:vm="clr-namespace:FiltersApplication.ViewModel"
-             mc:Ignorable="d"
+             xmlns:demo="clr-namespace:FiltersApplication.ViewModel"
+             xmlns:chartView="clr-namespace:Telerik.Windows.Controls.ChartView;assembly=Telerik.Windows.Controls.Chart"
+            mc:Ignorable="d"
              d:DesignHeight="600"
              d:DesignWidth="622"
              Style="{StaticResource Page_Style}">
-    
+
 
     <UserControl.DataContext>
-        <vm:ChartsVM/>
+        <demo:ChartsVM/>
     </UserControl.DataContext>
+    <UserControl.Resources>
+        <Style x:Key="trackBallLineStyle" TargetType="Polyline">
+            <Setter Property="Visibility" Value="Collapsed" />
+        </Style>
+        <Style x:Key="trackBallInfoStyle" TargetType="telerik:TrackBallInfoControl">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="telerik:TrackBallInfoControl" />
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <DataTemplate x:Key="trackBallTemplate">
+            <Ellipse Height="8" Width="8" Stroke="White" StrokeThickness="1" Fill="White" />
+        </DataTemplate>
+        <Style x:Key="tickStyle" TargetType="FrameworkElement">
+            <Setter Property="Visibility" Value="Collapsed" />
+        </Style>
+        <Style x:Key="labelFontStyle" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Segoe UI" />
+            <Setter Property="Foreground" Value="AliceBlue" />
+        </Style>
+        <Style x:Key="labelStyle" TargetType="TextBlock" BasedOn="{StaticResource labelFontStyle}">
+            <Setter Property="MinWidth" Value="20" />
+        </Style>
+        <Style x:Key="leftLabelStyle" TargetType="TextBlock" BasedOn="{StaticResource labelStyle}">
+            <Setter Property="TextAlignment" Value="Right" />
+            <Setter Property="Margin" Value="0,0,3,0" />
+        </Style>
+        <Style x:Key="rightLabelStyle" TargetType="TextBlock" BasedOn="{StaticResource labelStyle}">
+            <Setter Property="TextAlignment" Value="Left" />
+            <Setter Property="Margin" Value="3,0,0,0" />
+        </Style>
+        <Style x:Key="hiddenPanZoomBarStyle" TargetType="telerik:PanZoomBar">
+            <Setter Property="Height" Value="0" />
+        </Style>
+        <Style x:Key="plotAreaStyle" TargetType="Border">
+            <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="Background" Value="Transparent" />
+        </Style>
+    </UserControl.Resources>
 
+    <Grid x:Name="LayoutRoot">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="622*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="12,6,0,20">
+            <TextBlock>
+                <Run Text="DATE:" FontFamily="Segoe UI" FontSize="12"/>
+                <Run x:Name="date" Text="Mar 18, 2012" FontFamily="Segoe UI" FontSize="16" />
+            </TextBlock>
+            <TextBlock Margin="10,0,0,0">
+                <Run Text="PRICE:" FontFamily="Segoe UI" FontSize="12" />
+                <Run x:Name="price" Text="600.40" FontFamily="Segoe UI" FontSize="16"/>
+            </TextBlock>
+            <TextBlock Margin="10,0,0,0">
+                <Run Text="VOLUME:" FontFamily="Segoe UI" FontSize="12" />
+                <Run x:Name="volume" Text="5,976,129" FontFamily="Segoe UI" FontSize="16"/>
+            </TextBlock>
+        </StackPanel>
+        <telerik:RadCartesianChart Grid.Row="1" Margin="10,0,10,30" 
+                                   Zoom="{Binding Zoom, Mode=TwoWay}" PanOffset="{Binding PanOffset, Mode=TwoWay}"
+                                   TrackBallLineStyle="{StaticResource trackBallLineStyle}"
+                                   TrackBallInfoStyle="{StaticResource trackBallInfoStyle}"
+                                   PlotAreaStyle="{StaticResource plotAreaStyle}">
+            <telerik:RadCartesianChart.Behaviors>
+                <telerik:ChartPanAndZoomBehavior ZoomMode="Horizontal" DragMode="Pan" />
+                <telerik:ChartTrackBallBehavior ShowIntersectionPoints="True" TrackInfoUpdated="ChartTrackBallBehavior_TrackInfoUpdated" />
+            </telerik:RadCartesianChart.Behaviors>
 
-    
+            <chartView:AreaSeries ItemsSource="{Binding Data}"
+                                CategoryBinding="Date" ValueBinding="Close"
+                                Fill="#2625A0DA"
+                                Stroke="AliceBlue" StrokeThickness="2"
+                                TrackBallTemplate="{StaticResource trackBallTemplate}"
+                                Cursor="Hand">
+                <chartView:AreaSeries.VerticalAxis>
+                    <telerik:LinearAxis Minimum="460" Maximum="680" MajorStep="20" HorizontalLocation="Right"
+                                          LabelStyle="{StaticResource rightLabelStyle}" MajorTickStyle="{StaticResource tickStyle}" />
+                </chartView:AreaSeries.VerticalAxis>
+                </chartView:AreaSeries>
+                <telerik:RadCartesianChart.HorizontalAxis>
+                <telerik:DateTimeCategoricalAxis DateTimeComponent="Ticks" PlotMode="OnTicks" MajorTickInterval="30" ShowLabels="False"
+                                                   MajorTickStyle="{StaticResource tickStyle}" PanZoomBarStyle="{StaticResource hiddenPanZoomBarStyle}" />
+            </telerik:RadCartesianChart.HorizontalAxis>
+            <telerik:RadCartesianChart.VerticalAxis>
+                <telerik:LinearAxis Minimum="460" Maximum="680" MajorStep="20"
+                                      LabelStyle="{StaticResource leftLabelStyle}" MajorTickStyle="{StaticResource tickStyle}" />
+            </telerik:RadCartesianChart.VerticalAxis>
+            <telerik:RadCartesianChart.Grid>
+                <telerik:CartesianChartGrid StripLinesVisibility="None" MajorLinesVisibility="XY">
+                    <telerik:CartesianChartGrid.YStripeBrushes>
+                        <SolidColorBrush Color="#FFD7D7D7" Opacity="0.3" />
+                        <SolidColorBrush Color="Transparent" />
+                    </telerik:CartesianChartGrid.YStripeBrushes>
+                </telerik:CartesianChartGrid>
+            </telerik:RadCartesianChart.Grid>
+        </telerik:RadCartesianChart>
+       
+
+        <TextBlock Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,364,40,0"
+                   Text="volume (mln USD)" Foreground="#767676" FontFamily="Segoe UI" FontSize="11" Grid.RowSpan="2" />
+        <telerik:RadCartesianChart Grid.Row="2" Margin="10,11,10,0"
+                                   Zoom="{Binding Zoom, Mode=TwoWay}" 
+                                   PanOffset="{Binding PanOffset, Mode=TwoWay}"
+                                   PlotAreaStyle="{StaticResource plotAreaStyle}">
+            <telerik:RadCartesianChart.Behaviors>
+                <telerik:ChartPanAndZoomBehavior ZoomMode="Horizontal" DragMode="Pan" />
+            </telerik:RadCartesianChart.Behaviors>
+            <telerik:BarSeries ItemsSource="{Binding Data}"
+                               CategoryBinding="Date" ValueBinding="Volume"
+                               Cursor="Hand">
+                <telerik:BarSeries.PointTemplate>
+                    <DataTemplate>
+                        <Border Background="Blue" />
+                    </DataTemplate>
+                </telerik:BarSeries.PointTemplate>
+                <telerik:BarSeries.VerticalAxis>
+                    <telerik:LinearAxis LabelFormat="0,," MajorStep="5000000" Minimum="0" Maximum="15000000" HorizontalLocation="Right"
+                                          LabelStyle="{StaticResource rightLabelStyle}" MajorTickStyle="{StaticResource tickStyle}" />
+                </telerik:BarSeries.VerticalAxis>
+            </telerik:BarSeries>
+            <telerik:RadCartesianChart.HorizontalAxis>
+                <telerik:DateTimeCategoricalAxis DateTimeComponent="Ticks" PlotMode="OnTicks" MajorTickInterval="30" LabelFormat="MMM d" 
+                                                   LabelStyle="{StaticResource labelFontStyle}" MajorTickStyle="{StaticResource tickStyle}" />
+            </telerik:RadCartesianChart.HorizontalAxis>
+            <telerik:RadCartesianChart.VerticalAxis>
+                <telerik:LinearAxis LabelFormat="0,," MajorStep="5000000" Minimum="0" Maximum="15000000"
+                                      LabelStyle="{StaticResource leftLabelStyle}" MajorTickStyle="{StaticResource tickStyle}" />
+            </telerik:RadCartesianChart.VerticalAxis>
+            <telerik:RadCartesianChart.Grid>
+                <telerik:CartesianChartGrid StripLinesVisibility="None" MajorLinesVisibility="XY">
+                    <telerik:CartesianChartGrid.YStripeBrushes>
+                        <SolidColorBrush Color="#FFD7D7D7" Opacity="0.3" />
+                        <SolidColorBrush Color="Transparent" />
+                    </telerik:CartesianChartGrid.YStripeBrushes>
+                </telerik:CartesianChartGrid>
+            </telerik:RadCartesianChart.Grid>
+        </telerik:RadCartesianChart>
+    </Grid>
 </UserControl>
