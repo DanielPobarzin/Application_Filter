@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\All\ApplicationFilter\My Program\obj\Release\net6.0-windows\
+C:\All\ApplicationFilter\Application\obj\Release\net6.0-windows\
 FiltersApplication
 none
 false
 TRACE;RELEASE;NET;NET6_0;NETCOREAPP
-C:\All\ApplicationFilter\My Program\App.xaml
+C:\All\ApplicationFilter\Application\App.xaml
 14-512267338
 27876593348
-30-932577721
+33-1144122686
 284-1521578154
 MainProject.xaml;Styles\Button.xaml;Styles\ComboBoxStyle.xaml;Styles\Image.xaml;Styles\Page.xaml;Styles\Styles.xaml;Styles\Text.xaml;Utilities\DataTemplate.xaml;View\Calculate.xaml;View\Filters.xaml;View\Fuels.xaml;View\Home.xaml;View\Charts.xaml;View\Stations.xaml;
 
-False
+True
 

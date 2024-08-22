@@ -1,37 +1,16 @@
-﻿using FiltersApplication;
-using FiltersApplication.Interfaces;
+﻿using FiltersApplication.DbInitializer;
 using FiltersApplication.Model;
 using FiltersApplication.Utilities;
-using FiltersApplication.View;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
-using Microsoft.OData.Edm;
-using Microsoft.OData.UriParser;
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Documents;
 using System.Windows.Input;
-using FiltersApplication.DbInitializer;
-using System.Windows.Threading;
-using System.Xml.Linq;
-using Telerik.Windows.Documents.Model.Notes;
-using Telerik.Windows.Documents.Spreadsheet.Expressions.Functions;
-using Telerik.Windows.Persistence.Core;
 
 
 namespace FiltersApplication.ViewModel
 {
-     class FiltersVM : ViewModelBase
+	class FiltersVM : ViewModelBase
     {
 
 		private readonly ApplicationDbFilterContext db;

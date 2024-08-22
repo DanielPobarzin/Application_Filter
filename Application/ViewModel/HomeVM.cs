@@ -9,8 +9,6 @@ namespace FiltersApplication.ViewModel
 {
     class HomeVM : Utilities.ViewModelBase
     {
-
-
         public HomeVM()
         {
         }

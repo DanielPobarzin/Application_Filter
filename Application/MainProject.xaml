@@ -39,7 +39,7 @@
          BorderThickness="5"
          CornerRadius="20"/>
 
-        <Grid x:Name="BasGrid" Visibility="Visible">
+        <Grid x:Name="BasGrid" Visibility="Hidden">
 
 
             <!--// Base Grid //-->

@@ -5,13 +5,13 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
              xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             xmlns:style="clr-namespace:FiltersApplication.Utilities"
              xmlns:demo="clr-namespace:FiltersApplication.ViewModel"
              xmlns:chartView="clr-namespace:Telerik.Windows.Controls.ChartView;assembly=Telerik.Windows.Controls.Chart"
             mc:Ignorable="d"
              d:DesignHeight="600"
              d:DesignWidth="622"
              Style="{StaticResource Page_Style}">
-
 
     <UserControl.DataContext>
         <demo:ChartsVM/>
@@ -69,19 +69,16 @@
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="12,6,0,20">
             <TextBlock>
-                <Run Text="DATE:" FontFamily="Segoe UI" FontSize="12"/>
-                <Run x:Name="date" Text="Mar 18, 2012" FontFamily="Segoe UI" FontSize="16" />
+                <Run Text="Степень золоулавливания η: "  FontFamily="Century Gothic" FontSize="14" Foreground="#FF0BCDFF"/>
+                <Run x:Name="date" Text="100.00" FontFamily="Century Gothic" Foreground="#FF0BCDFF" FontSize="16" />
+                <Run x:Name="procent" Text="%" FontFamily="Century Gothic" Foreground="#FF0BCDFF" FontSize="16" />
             </TextBlock>
             <TextBlock Margin="10,0,0,0">
-                <Run Text="PRICE:" FontFamily="Segoe UI" FontSize="12" />
-                <Run x:Name="price" Text="600.40" FontFamily="Segoe UI" FontSize="16"/>
-            </TextBlock>
-            <TextBlock Margin="10,0,0,0">
-                <Run Text="VOLUME:" FontFamily="Segoe UI" FontSize="12" />
-                <Run x:Name="volume" Text="5,976,129" FontFamily="Segoe UI" FontSize="16"/>
+                <Run Text="Коэффициент избытка воздуха α: " Foreground="#FF0BCDFF" FontFamily="Century Gothic" FontSize="14" />
+                <Run x:Name="price" Text="1.456" Foreground="#FF0BCDFF" FontFamily="Century Gothic" FontSize="16"/>
             </TextBlock>
         </StackPanel>
-        <telerik:RadCartesianChart Grid.Row="1" Margin="10,0,10,30" 
+        <telerik:RadCartesianChart Grid.Row="1" Margin="10,0,10,50" 
                                    Zoom="{Binding Zoom, Mode=TwoWay}" PanOffset="{Binding PanOffset, Mode=TwoWay}"
                                    TrackBallLineStyle="{StaticResource trackBallLineStyle}"
                                    TrackBallInfoStyle="{StaticResource trackBallInfoStyle}"
@@ -94,7 +91,7 @@
             <chartView:AreaSeries ItemsSource="{Binding Data}"
                                 CategoryBinding="Date" ValueBinding="Close"
                                 Fill="#2625A0DA"
-                                Stroke="AliceBlue" StrokeThickness="2"
+                                Stroke="#FF0BCDFF" StrokeThickness="3"
                                 TrackBallTemplate="{StaticResource trackBallTemplate}"
                                 Cursor="Hand">
                 <chartView:AreaSeries.VerticalAxis>
@@ -103,7 +100,7 @@
                 </chartView:AreaSeries.VerticalAxis>
                 </chartView:AreaSeries>
                 <telerik:RadCartesianChart.HorizontalAxis>
-                <telerik:DateTimeCategoricalAxis DateTimeComponent="Ticks" PlotMode="OnTicks" MajorTickInterval="30" ShowLabels="False"
+                <telerik:DateTimeCategoricalAxis DateTimeComponent="Ticks" PlotMode="OnTicks" MajorTickInterval="30" ShowLabels="True"
                                                    MajorTickStyle="{StaticResource tickStyle}" PanZoomBarStyle="{StaticResource hiddenPanZoomBarStyle}" />
             </telerik:RadCartesianChart.HorizontalAxis>
             <telerik:RadCartesianChart.VerticalAxis>
@@ -122,7 +119,7 @@
        
 
         <TextBlock Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,364,40,0"
-                   Text="volume (mln USD)" Foreground="#767676" FontFamily="Segoe UI" FontSize="11" Grid.RowSpan="2" />
+                   Text="Золоулавливание (в зависимости от топлива)" Foreground="#767676" FontFamily="Segoe UI" FontSize="11" Grid.RowSpan="2" />
         <telerik:RadCartesianChart Grid.Row="2" Margin="10,11,10,0"
                                    Zoom="{Binding Zoom, Mode=TwoWay}" 
                                    PanOffset="{Binding PanOffset, Mode=TwoWay}"
@@ -135,7 +132,10 @@
                                Cursor="Hand">
                 <telerik:BarSeries.PointTemplate>
                     <DataTemplate>
-                        <Border Background="Blue" />
+                        <DataTemplate.Resources>
+                            <style:RandomColorConverter x:Key="RandomColorConverter"/>
+                        </DataTemplate.Resources>
+                        <Border Background="{Binding RelativeSource={RelativeSource Self}, Converter={StaticResource RandomColorConverter}}" Opacity="0.3" />
                     </DataTemplate>
                 </telerik:BarSeries.PointTemplate>
                 <telerik:BarSeries.VerticalAxis>

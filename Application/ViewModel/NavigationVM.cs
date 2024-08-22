@@ -1,5 +1,6 @@
 ﻿using FiltersApplication.Model;
 using FiltersApplication.Utilities;
+using FiltersApplication.View;
 using FiltersApplication.ViewModel;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
@@ -30,44 +31,24 @@ namespace FiltersApplication.ViewModel
         public ICommand CalculateCommand { get; set; }
         public ICommand ChartsCommand { get; set; }
 
-		private async void HomeAsync(object obj)
+		private async Task NavigateAsync(Type viewType)
 		{
-			CurrentView = await GetViewModelInstanceAsync(typeof(View.Home));
+			CurrentView = await GetViewModelInstanceAsync(viewType);
 		}
-		private async void FilterAsync(object obj)
-	{
-		CurrentView = await GetViewModelInstanceAsync(typeof(View.Filters));
-	}
-		private async void FuelAsync(object obj)
-		{
-			CurrentView = await GetViewModelInstanceAsync(typeof(View.Fuels));
-		}
-		private async void StationAsync(object obj)
-		{
-			CurrentView = await GetViewModelInstanceAsync(typeof(View.Stations));
-		}
-		private async void CalculateAsync(object obj)
-		{
-			CurrentView = await GetViewModelInstanceAsync(typeof(View.Calculate));
-		}
-
-		private async void ChartAsync(object obj)
-		{
-			CurrentView = await GetViewModelInstanceAsync(typeof(View.Charts));
-		}
-
 		public NavigationVM()
 		{
-			HomeCommand = new RelayCommand(HomeAsync);
-			FiltersCommand = new RelayCommand(FilterAsync);
-			FuelsCommand = new RelayCommand(FuelAsync);
-			StationsCommand = new RelayCommand(StationAsync);
-			CalculateCommand = new RelayCommand(CalculateAsync);
-			ChartsCommand = new RelayCommand(ChartAsync);
+			HomeCommand = new RelayCommand(async obj => await NavigateAsync(typeof(View.Home)));
+			FiltersCommand = new RelayCommand(async obj => await NavigateAsync(typeof(View.Filters)));
+			FuelsCommand = new RelayCommand(async obj => await NavigateAsync(typeof(View.Fuels)));
+			StationsCommand = new RelayCommand(async obj => await NavigateAsync(typeof(View.Stations)));
+			CalculateCommand = new RelayCommand(async obj => await NavigateAsync(typeof(View.Calculate)));
+			ChartsCommand = new RelayCommand(async obj => await NavigateAsync(typeof(View.Charts)));
 			InitializeCurrentView();
 		}
 		private void InitializeCurrentView()
 		{
+			CurrentView = _userControlCache.ContainsKey(typeof(View.Filters)) ? _userControlCache[typeof(View.Filters)] : new FiltersVM();
+			CurrentView =  _userControlCache.ContainsKey(typeof(View.Filters)) ? _userControlCache[typeof(View.Filters)] : new FiltersVM();
 			CurrentView = _userControlCache.ContainsKey(typeof(View.Home)) ? _userControlCache[typeof(View.Home)] : new HomeVM();
 		}
 		private async Task<UserControl> GetViewModelInstanceAsync(Type viewType)

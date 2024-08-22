@@ -35,7 +35,6 @@ namespace FiltersApplication.View
 			if (closestDataPoint != null)
 			{
 				FinancialData data = closestDataPoint.DataPoint.DataItem as FinancialData;
-				this.volume.Text = data.Volume.ToString("##,#");
 				this.date.Text = data.Date.ToString("MMM dd, yyyy");
 				this.price.Text = data.Close.ToString("0,0.00");
 			}
